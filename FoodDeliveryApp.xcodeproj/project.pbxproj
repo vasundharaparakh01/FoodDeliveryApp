@@ -86,7 +86,6 @@
 		1DEB204A284FB3540075159F /* PlayerTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DEB2048284FB3540075159F /* PlayerTableCell.xib */; };
 		1DEB204D284FB36E0075159F /* PlayerHeaderTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB204B284FB36E0075159F /* PlayerHeaderTableCell.swift */; };
 		1DEB204E284FB36E0075159F /* PlayerHeaderTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DEB204C284FB36E0075159F /* PlayerHeaderTableCell.xib */; };
-		1DEF3DEF28C10E1F009CC13F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1DEF3DEE28C10E1F009CC13F /* GoogleService-Info.plist */; };
 		752B16B1ABAB110E6DF3FB69 /* Pods_FanServe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515B8121AA8A7AC907CE0847 /* Pods_FanServe.framework */; };
 		9C5962B92849AF6F00661F18 /* splashVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C5962B82849AF6F00661F18 /* splashVideo.mp4 */; };
 		9CC940A5284DCF8100E4F62C /* SideMenuWithOutLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CC940A3284DCF8000E4F62C /* SideMenuWithOutLoginVC.xib */; };
@@ -362,7 +361,6 @@
 		1DEB2048284FB3540075159F /* PlayerTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerTableCell.xib; sourceTree = "<group>"; };
 		1DEB204B284FB36E0075159F /* PlayerHeaderTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerHeaderTableCell.swift; sourceTree = "<group>"; };
 		1DEB204C284FB36E0075159F /* PlayerHeaderTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerHeaderTableCell.xib; sourceTree = "<group>"; };
-		1DEF3DEE28C10E1F009CC13F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4DE82AD269648F36768F3F5B /* Pods-FanServe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanServe.debug.xcconfig"; path = "Target Support Files/Pods-FanServe/Pods-FanServe.debug.xcconfig"; sourceTree = "<group>"; };
 		515B8121AA8A7AC907CE0847 /* Pods_FanServe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FanServe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C5962B82849AF6F00661F18 /* splashVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = splashVideo.mp4; sourceTree = "<group>"; };
@@ -374,7 +372,6 @@
 		CA1A82B12833AD9000B40F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA1A82B32833AD9200B40F62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA1A82B62833AD9200B40F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CA1A82B82833AD9200B40F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA1A82BD2833AD9200B40F62 /* FanServeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanServeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA1A82C12833AD9200B40F62 /* FanServeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanServeTests.swift; sourceTree = "<group>"; };
 		CA1A82C72833AD9200B40F62 /* FanServeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanServeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -761,7 +758,6 @@
 		CA1A82A92833AD9000B40F62 /* FanServe */ = {
 			isa = PBXGroup;
 			children = (
-				1DEF3DEE28C10E1F009CC13F /* GoogleService-Info.plist */,
 				1D64510828BE7C15005A7269 /* FanServe.entitlements */,
 				1D11C085286A0BC300A604D6 /* CoreDataHelper */,
 				1D11C086286A0BC300A604D6 /* ServiceHelper */,
@@ -777,7 +773,6 @@
 				CA1A82B02833AD9000B40F62 /* Main.storyboard */,
 				CA1A82B32833AD9200B40F62 /* Assets.xcassets */,
 				CA1A82B52833AD9200B40F62 /* LaunchScreen.storyboard */,
-				CA1A82B82833AD9200B40F62 /* Info.plist */,
 			);
 			path = FanServe;
 			sourceTree = "<group>";
@@ -1398,7 +1393,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CA1A82A22833AD9000B40F62 /* Build configuration list for PBXProject "FanServe" */;
+			buildConfigurationList = CA1A82A22833AD9000B40F62 /* Build configuration list for PBXProject "FoodDeliveryApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -1486,7 +1481,6 @@
 				1DEB2041284F97BD0075159F /* EditProfileVC.xib in Resources */,
 				CA8B10DF2834E67A009C47DD /* Poppins-Medium.ttf in Resources */,
 				1D225B9E28B3E5540031987D /* TrackCollectionCell.xib in Resources */,
-				1DEF3DEF28C10E1F009CC13F /* GoogleService-Info.plist in Resources */,
 				1D8D87882859CA2000882664 /* AddOnsTableCell.xib in Resources */,
 				1DE0CA5528525FFC004541BC /* CancelOrderVC.xib in Resources */,
 				CA8B10E32834E67A009C47DD /* Poppins-BlackItalic.ttf in Resources */,
@@ -2085,7 +2079,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CA1A82A22833AD9000B40F62 /* Build configuration list for PBXProject "FanServe" */ = {
+		CA1A82A22833AD9000B40F62 /* Build configuration list for PBXProject "FoodDeliveryApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA1A82CF2833AD9200B40F62 /* Debug */,
