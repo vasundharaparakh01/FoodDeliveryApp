@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewsDetailsVC" customModule="FanServe" customModuleProvider="target">
+            <connections>
+                <outlet property="tblView" destination="r2a-jO-lPT" id="xCc-2L-eGA"/>
+                <outlet property="view" destination="pgH-ih-Rtt" id="nGs-Rm-h4c"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="pgH-ih-Rtt">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="867"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="News" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUe-Lo-dky">
+                    <rect key="frame" x="82" y="47.333333333333336" width="49.666666666666657" height="25.333333333333336"/>
+                    <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y8E-Ll-I58">
+                    <rect key="frame" x="20" y="30" width="60" height="60"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backBtn" translatesAutoresizingMaskIntoConstraints="NO" id="HDW-sz-LEN">
+                            <rect key="frame" x="10" y="10" width="40" height="40"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Od3-vU-Gto">
+                            <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="backArrow"/>
+                            <connections>
+                                <action selector="backBtnActionWithSender:" destination="-1" eventType="touchUpInside" id="0Sx-Fb-Tb0"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="Od3-vU-Gto" firstAttribute="leading" secondItem="Y8E-Ll-I58" secondAttribute="leading" id="1Sb-zX-t9t"/>
+                        <constraint firstItem="HDW-sz-LEN" firstAttribute="leading" secondItem="Y8E-Ll-I58" secondAttribute="leading" constant="10" id="2Ev-wA-KWh"/>
+                        <constraint firstAttribute="width" constant="60" id="95W-md-LY7"/>
+                        <constraint firstAttribute="trailing" secondItem="HDW-sz-LEN" secondAttribute="trailing" constant="10" id="ACw-Lz-A4t"/>
+                        <constraint firstAttribute="bottom" secondItem="HDW-sz-LEN" secondAttribute="bottom" constant="10" id="BcV-eG-jr7"/>
+                        <constraint firstAttribute="height" constant="60" id="XPZ-05-hdO"/>
+                        <constraint firstItem="HDW-sz-LEN" firstAttribute="top" secondItem="Y8E-Ll-I58" secondAttribute="top" constant="10" id="dKF-xs-v59"/>
+                        <constraint firstItem="Od3-vU-Gto" firstAttribute="top" secondItem="Y8E-Ll-I58" secondAttribute="top" id="i2k-Fg-dMi"/>
+                        <constraint firstAttribute="bottom" secondItem="Od3-vU-Gto" secondAttribute="bottom" id="qs4-zg-x0J"/>
+                        <constraint firstAttribute="trailing" secondItem="Od3-vU-Gto" secondAttribute="trailing" id="xgR-xY-0JI"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="r2a-jO-lPT">
+                    <rect key="frame" x="0.0" y="87.666666666666686" width="414" height="779.33333333333326"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="fJE-r4-5du"/>
+                        <outlet property="delegate" destination="-1" id="SOR-F8-CLH"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="7Bk-xQ-TVj"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="dUe-Lo-dky" firstAttribute="leading" secondItem="Od3-vU-Gto" secondAttribute="trailing" constant="2" id="C8s-iQ-aEi"/>
+                <constraint firstItem="r2a-jO-lPT" firstAttribute="leading" secondItem="7Bk-xQ-TVj" secondAttribute="leading" id="Gm3-hc-lLg"/>
+                <constraint firstItem="r2a-jO-lPT" firstAttribute="bottom" secondItem="7Bk-xQ-TVj" secondAttribute="bottom" id="NXN-gR-6VR"/>
+                <constraint firstItem="r2a-jO-lPT" firstAttribute="top" secondItem="dUe-Lo-dky" secondAttribute="bottom" constant="15" id="aOj-fO-Lhj"/>
+                <constraint firstItem="r2a-jO-lPT" firstAttribute="trailing" secondItem="7Bk-xQ-TVj" secondAttribute="trailing" id="b4e-RR-C0l"/>
+                <constraint firstItem="Y8E-Ll-I58" firstAttribute="top" secondItem="7Bk-xQ-TVj" secondAttribute="top" constant="30" id="ogJ-aq-zXO"/>
+                <constraint firstItem="Y8E-Ll-I58" firstAttribute="leading" secondItem="7Bk-xQ-TVj" secondAttribute="leading" constant="20" id="pG1-xb-Me6"/>
+                <constraint firstItem="dUe-Lo-dky" firstAttribute="centerY" secondItem="Od3-vU-Gto" secondAttribute="centerY" id="qFB-7E-fgP"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="131.8840579710145" y="120.24456521739131"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backArrow" width="10" height="17"/>
+        <image name="backBtn" width="44" height="44"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

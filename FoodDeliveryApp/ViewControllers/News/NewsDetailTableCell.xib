@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="488" id="KGk-i7-Jjw" customClass="NewsDetailTableCell" customModule="FanServe" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="488"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="488"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Bbt-Hi-8rj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="483"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X9K-jC-08j">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="483"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.25439776492715233" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uLw-sk-TH6">
+                        <rect key="frame" x="20" y="374.5" width="280" height="88.5"/>
+                        <string key="text">Lorem ipsum dolor sit amet,  con
+sectetur adipiscing elit.</string>
+                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="21"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="X9K-jC-08j" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="24v-0Q-fQE"/>
+                    <constraint firstAttribute="bottom" secondItem="X9K-jC-08j" secondAttribute="bottom" constant="5" id="40I-2t-mHS"/>
+                    <constraint firstAttribute="trailing" secondItem="uLw-sk-TH6" secondAttribute="trailing" constant="20" id="6qW-cc-JzR"/>
+                    <constraint firstAttribute="trailing" secondItem="Bbt-Hi-8rj" secondAttribute="trailing" id="AN3-9k-Y9p"/>
+                    <constraint firstItem="Bbt-Hi-8rj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="IKp-zV-68B"/>
+                    <constraint firstAttribute="bottom" secondItem="Bbt-Hi-8rj" secondAttribute="bottom" constant="5" id="UlB-Ay-1uw"/>
+                    <constraint firstItem="Bbt-Hi-8rj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="VNy-p1-TmS"/>
+                    <constraint firstAttribute="bottom" secondItem="uLw-sk-TH6" secondAttribute="bottom" constant="25" id="iE9-or-VC5"/>
+                    <constraint firstItem="X9K-jC-08j" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="oSG-3c-ewc"/>
+                    <constraint firstAttribute="trailing" secondItem="X9K-jC-08j" secondAttribute="trailing" id="txR-3P-VgB"/>
+                    <constraint firstItem="uLw-sk-TH6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="umZ-RV-1cg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgView" destination="Bbt-Hi-8rj" id="2ul-su-BDg"/>
+                <outlet property="titleLabel" destination="uLw-sk-TH6" id="XMf-dI-KJd"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="246.42857142857142"/>
+        </tableViewCell>
+    </objects>
+</document>

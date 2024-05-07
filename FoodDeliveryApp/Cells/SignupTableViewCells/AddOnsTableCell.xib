@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="AddOnsTableCell" customModule="FanServe" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKR-nx-0Fu">
+                        <rect key="frame" x="278" y="11" width="22" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="ZiM-Xb-gb4"/>
+                            <constraint firstAttribute="width" constant="22" id="bdJ-ow-IKZ"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="deleteIcon"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="11"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="$10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYB-gl-v8K">
+                        <rect key="frame" x="252" y="15" width="16" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="e27-3A-9jJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="10"/>
+                        <color key="textColor" red="0.60392156862745094" green="0.60392156862745094" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Mayonnaise" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wDZ-gc-3ah">
+                        <rect key="frame" x="15" y="13.5" width="227" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="0rd-1D-HKS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="12"/>
+                        <color key="textColor" red="0.60392156860000001" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="MKR-nx-0Fu" firstAttribute="leading" secondItem="KYB-gl-v8K" secondAttribute="trailing" constant="10" id="Agw-SM-pp6"/>
+                    <constraint firstItem="MKR-nx-0Fu" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="BLg-b4-tXY"/>
+                    <constraint firstItem="KYB-gl-v8K" firstAttribute="leading" secondItem="wDZ-gc-3ah" secondAttribute="trailing" constant="10" id="FAY-Qo-CbO"/>
+                    <constraint firstItem="KYB-gl-v8K" firstAttribute="centerY" secondItem="MKR-nx-0Fu" secondAttribute="centerY" id="hDJ-n6-kSS"/>
+                    <constraint firstAttribute="trailing" secondItem="MKR-nx-0Fu" secondAttribute="trailing" constant="20" id="jbS-Lf-Tws"/>
+                    <constraint firstItem="wDZ-gc-3ah" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="x2o-KP-4f6"/>
+                    <constraint firstItem="wDZ-gc-3ah" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="xMV-6m-tmu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="deleteButton" destination="MKR-nx-0Fu" id="Eaw-rN-NCd"/>
+                <outlet property="nameLabel" destination="wDZ-gc-3ah" id="5Bz-Dn-DMC"/>
+                <outlet property="priceLabel" destination="KYB-gl-v8K" id="f8E-Pm-yUp"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="35"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="deleteIcon" width="7" height="8"/>
+    </resources>
+</document>

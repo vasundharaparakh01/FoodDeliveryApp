@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21279" systemVersion="21G72" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="SAppUser" representedClassName="SAppUser" syncable="YES" codeGenerationType="class">
+        <attribute name="accountStatus" optional="YES" attributeType="String"/>
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="cartCount" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="countryCode" optional="YES" attributeType="String"/>
+        <attribute name="dob" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="isCurrentlyLogin" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isCurrentUser" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isEmailVerified" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isMobileVerified" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <attribute name="loyaltyPoints" optional="YES" attributeType="String"/>
+        <attribute name="mobile" optional="YES" attributeType="String"/>
+        <attribute name="profileImage" optional="YES" attributeType="String"/>
+        <attribute name="role" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+        <relationship name="dummyOrder" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SFOrder" inverseName="userOrder" inverseEntity="SFOrder"/>
+        <relationship name="matchList" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="SFMatch" inverseName="user" inverseEntity="SFMatch"/>
+        <relationship name="myOrders" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="SFOrder" inverseName="user" inverseEntity="SFOrder"/>
+        <relationship name="newsList" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="SFNews" inverseName="user" inverseEntity="SFNews"/>
+        <relationship name="notificationList" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="SFNotification" inverseName="user" inverseEntity="SFNotification"/>
+        <relationship name="playerSections" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="SFSection" inverseName="userPlayer" inverseEntity="SFSection"/>
+        <relationship name="restaurants" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="SFRestaurant" inverseName="user" inverseEntity="SFRestaurant"/>
+        <relationship name="ticketDetail" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SFTicket" inverseName="user" inverseEntity="SFTicket"/>
+        <relationship name="userCart" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SFCart" inverseName="user" inverseEntity="SFCart"/>
+        <relationship name="userPassbookEntries" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="SFNotification" inverseName="userPassbook" inverseEntity="SFNotification"/>
+    </entity>
+    <entity name="SFCart" representedClassName="SFCart" syncable="YES" codeGenerationType="class">
+        <attribute name="additionalInfo" optional="YES" attributeType="String"/>
+        <attribute name="cartId" optional="YES" attributeType="String"/>
+        <attribute name="deliveryCharge" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="deliveryMode" optional="YES" attributeType="String"/>
+        <attribute name="deliveryModeSlug" optional="YES" attributeType="String"/>
+        <attribute name="tipAmount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="totalAmount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="cartItems" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="SFMenuItem" inverseName="cart" inverseEntity="SFMenuItem"/>
+        <relationship name="restaurant" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SFRestaurant" inverseName="cart" inverseEntity="SFRestaurant"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SAppUser" inverseName="userCart" inverseEntity="SAppUser"/>
+    </entity>
+    <entity name="SFMatch" representedClassName="SFMatch" syncable="YES" codeGenerationType="class">
+        <attribute name="awayClub" optional="YES" attributeType="String"/>
+        <attribute name="awayClubLogo" optional="YES" attributeType="String"/>
+        <attribute name="homeClub" optional="YES" attributeType="String"/>
+        <attribute name="homeClubLogo" optional="YES" attributeType="String"/>
+        <attribute name="matchDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="matchName" optional="YES" attributeType="String"/>
+        <attribute name="orderIndex" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stadiumName" optional="YES" attributeType="String"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SAppUser" inverseName="matchList" inverseEntity="SAppUser"/>
+    </entity>
+    <entity name="SFMenuItem" representedClassName="SFMenuItem" syncable="YES" codeGenerationType="class">
+        <attribute name="isMultiCustomization" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isRecommended" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isSauvenior" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="lastAdditionalItem" optional="YES" attributeType="String"/>
+        <attribute name="lastQuantity" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lastVarientId" optional="YES" attributeType="String"/>
+        <attribute name="menuId" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="productId" optional="YES" attributeType="String"/>
+        <attribute name="productImage" optional="YES" attributeType="String"/>
+        <attribute name="quantity" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="restaurantId" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="stock" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totalPrice" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="varientId" optional="YES" attributeType="String"/>
+        <relationship name="additionalItems" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="SFSubItem" inverseName="itemAdditional" inverseEntity="SFSubItem"/>
+        <relationship name="cart" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SFCart" inverseName="cartItems" inverseEntity="SFCart"/>
+        <relationship name="imageList" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="SFSubItem" inverseName="itemImages" inverseEntity="SFSubItem"/>
+        <relationship name="menu" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SFSection" inverseName="items" inverseEntity="SFSection"/>
+        <relationship name="order" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SFOrder" inverseName="items" inverseEntity="SFOrder"/>
+        <relationship name="player" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SFPlayer" inverseName="souvenierList" inverseEntity="SFPlayer"/>
+        <relationship name="restaurant" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SFRestaurant" inverseName="souvenierList" inverseEntity="SFRestaurant"/>
+        <relationship name="varients" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="SFSubItem" inverseName="itemVarient" inverseEntity="SFSubItem"/>
+    </entity>
+    <entity name="SFNews" representedClassName="SFNews" syncable="YES" codeGenerationType="class">
+        <attribute name="coverImage" optional="YES" attributeType="String"/>
+        <attribute name="mainImage" optional="YES" attributeType="String"/>
+        <attribute name="newId" optional="YES" attributeType="String"/>
+        <attribute name="newsBody" optional="YES" attributeType="String"/>
+        <attribute name="newsDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="newsDescription" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SAppUser" inverseName="newsList" inverseEntity="SAppUser"/>
+    </entity>
+    <entity name="SFNotification" representedClassName="SFNotification" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="isRead" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="message" optional="YES" attributeType="String"/>
+        <attribute name="notificationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="notificationId" optional="YES" attributeType="String"/>
+        <attribute name="orderId" optional="YES" attributeType="String"/>
+        <attribute name="orderNumber" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="useFor" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SAppUser" inverseName="notificationList" inverseEntity="SAppUser"/>
+        <relationship name="userPassbook" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SAppUser" inverseName="userPassbookEntries" inverseEntity="SAppUser"/>
+    </entity>
+    <entity name="SFOrder" representedClassName="SFOrder" syncable="YES" codeGenerationType="class">
+        <attribute name="customId" optional="YES" attributeType="String"/>
+        <attribute name="deliveryCharge" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="deliveryMode" optional="YES" attributeType="String"/>
+        <attribute name="orderDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="orderId" optional="YES" attributeType="String"/>
+        <attribute name="orderPrice" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="orderTime" optional="YES" attributeType="String"/>
+        <attribute name="orderType" optional="YES" attributeType="String"/>
+        <attribute name="paymentMode" optional="YES" attributeType="String"/>
+        <attribute name="rating" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="seatDetails" optional="YES" attributeType="String"/>
+        <attribute name="seatNumber" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="tipAmount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="SFMenuItem" inverseName="order" inverseEntity="SFMenuItem"/>
+        <relationship name="restaurent" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SFRestaurant" inverseName="order" inverseEntity="SFRestaurant"/>
+        <relationship name="trackList" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="SFSection" inverseName="order" inverseEntity="SFSection"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SAppUser" inverseName="myOrders" inverseEntity="SAppUser"/>
+        <relationship name="userOrder" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SAppUser" inverseName="dummyOrder" inverseEntity="SAppUser"/>
+    </entity>
+    <entity name="SFPlayer" representedClassName="SFPlayer" syncable="YES" codeGenerationType="class">
+        <attribute name="clubId" optional="YES" attributeType="String"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="isGoalKeeper" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <attribute name="pictureUrl" optional="YES" attributeType="String"/>
+        <attribute name="playerCategory" optional="YES" attributeType="String"/>
+        <attribute name="playerId" optional="YES" attributeType="String"/>
+        <attribute name="playerNumber" optional="YES" attributeType="String"/>
+        <relationship name="playerSection" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SFSection" inverseName="players" inverseEntity="SFSection"/>
+        <relationship name="souvenierList" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="SFMenuItem" inverseName="player" inverseEntity="SFMenuItem"/>
+    </entity>
+    <entity name="SFRestaurant" representedClassName="SFRestaurant" syncable="YES" codeGenerationType="class">
+        <attribute name="accountStatus" optional="YES" attributeType="String"/>
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="countryCode" optional="YES" attributeType="String"/>
+        <attribute name="cusine" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="isEmailVerified" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isMobileVerified" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="String"/>
+        <attribute name="longitude" optional="YES" attributeType="String"/>
+        <attribute name="mobile" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="profileImage" optional="YES" attributeType="String"/>
+        <attribute name="rating" optional="YES" attributeType="String"/>
+        <attribute name="restaurantId" optional="YES" attributeType="String"/>
+        <attribute name="role" optional="YES" attributeType="String"/>
+        <relationship name="cart" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SFCart" inverseName="restaurant" inverseEntity="SFCart"/>
+        <relationship name="menuSections" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="SFSection" inverseName="restaurants" inverseEntity="SFSection"/>
+        <relationship name="order" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SFOrder" inverseName="restaurent" inverseEntity="SFOrder"/>
+        <relationship name="souvenierList" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="SFMenuItem" inverseName="restaurant" inverseEntity="SFMenuItem"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SAppUser" inverseName="restaurants" inverseEntity="SAppUser"/>
+    </entity>
+    <entity name="SFSection" representedClassName="SFSection" syncable="YES" codeGenerationType="class">
+        <attribute name="categoryName" optional="YES" attributeType="String"/>
+        <attribute name="catId" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="status" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="SFMenuItem" inverseName="menu" inverseEntity="SFMenuItem"/>
+        <relationship name="order" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SFOrder" inverseName="trackList" inverseEntity="SFOrder"/>
+        <relationship name="players" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="SFPlayer" inverseName="playerSection" inverseEntity="SFPlayer"/>
+        <relationship name="restaurants" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SFRestaurant" inverseName="menuSections" inverseEntity="SFRestaurant"/>
+        <relationship name="userPlayer" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SAppUser" inverseName="playerSections" inverseEntity="SAppUser"/>
+    </entity>
+    <entity name="SFSubItem" representedClassName="SFSubItem" syncable="YES" codeGenerationType="class">
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="isSelected" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="itemId" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="status" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <relationship name="itemAdditional" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SFMenuItem" inverseName="additionalItems" inverseEntity="SFMenuItem"/>
+        <relationship name="itemImages" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SFMenuItem" inverseName="imageList" inverseEntity="SFMenuItem"/>
+        <relationship name="itemVarient" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SFMenuItem" inverseName="varients" inverseEntity="SFMenuItem"/>
+    </entity>
+    <entity name="SFTicket" representedClassName="SFTicket" syncable="YES" codeGenerationType="class">
+        <attribute name="awayClub" optional="YES" attributeType="String"/>
+        <attribute name="awayClubLogo" optional="YES" attributeType="String"/>
+        <attribute name="enterenceGate" optional="YES" attributeType="String"/>
+        <attribute name="homeClub" optional="YES" attributeType="String"/>
+        <attribute name="homeClubLogo" optional="YES" attributeType="String"/>
+        <attribute name="matchDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="matchName" optional="YES" attributeType="String"/>
+        <attribute name="seatNumber" optional="YES" attributeType="String"/>
+        <attribute name="stadiumName" optional="YES" attributeType="String"/>
+        <attribute name="stadiumZone" optional="YES" attributeType="String"/>
+        <attribute name="ticketHolder" optional="YES" attributeType="String"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SAppUser" inverseName="ticketDetail" inverseEntity="SAppUser"/>
+    </entity>
+</model>
