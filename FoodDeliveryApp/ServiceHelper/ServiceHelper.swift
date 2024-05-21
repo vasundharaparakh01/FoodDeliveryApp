@@ -16,9 +16,9 @@ let NO_DATA_FOUND_MESSAGE  = "We didn't find anything to show here."
 
 let timeoutInterval:Double = 200
 
-let ticketDetailApiBaseUrl = "http://103.197.59.202:5011/api/"
-//let API_BASE_URL = "http://54.201.160.69:9125/api/v1/"  //UAT URL
-let API_BASE_URL = "https://servingfan.com:9125/api/v1/"  //Production URL
+let ticketDetailApiBaseUrl = "http://"
+//let API_BASE_URL = "http://"  //UAT URL
+let API_BASE_URL = "https://"  //Production URL
 
 
 struct PAGE {

@@ -1,6 +1,6 @@
 //
 //  EndPoints.swift
-//  FanServe
+//  appName
 //
 
 
@@ -22,11 +22,11 @@ private struct APIBuilder {
     static let ApiScheme = "https"
     static var ApiHost: String {
         if env == .development {
-            return "go-guard.omnisttechhub.com/v1/"
+            return "go"
         } else if env == .testing {
-            return "go-guard.omnisttechhub.com/v1/"
+            return "go"
         } else {
-            return "go-guard.omnisttechhub.com/v1/"
+            return "go"
         }
     }
 }
@@ -81,12 +81,12 @@ extension APIEndPoint: APIRequestType {
     
     var headers: HTTPHeaders {
         
-        var auth = HTTPHeader(name: Constants.UserDefaultsKey.authorization, value: "Basic Z29ndWFyZDpnb2d1YXJkQDEyMzQ1")
+        var auth = HTTPHeader(name: Constants.UserDefaultsKey.authorization, value: "Basic token")
         let contentType = HTTPHeader(name: Constants.contentType, value: "application/json")
         
         switch self {
         case .login, .socialLogin, .register, .forgotPassword, .privacyData, .termsData:
-            auth = HTTPHeader(name: Constants.UserDefaultsKey.authorization, value: "Basic Z29ndWFyZDpnb2d1YXJkQDEyMzQ1")
+            auth = HTTPHeader(name: Constants.UserDefaultsKey.authorization, value: "Basic token")
         default:
             let authDict = NSUSERDEFAULTMANAGER.userData[Constants.UserDefaultsKey.tokens] as! [String: Any]
             let accessToken = authDict[Constants.ServerKey.accessToken] as! [String: Any]

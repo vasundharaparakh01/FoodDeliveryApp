@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BBF93108649CB79B95581F72CC6E3E4B"
-               BuildableName = "Pods_FanServe.framework"
-               BlueprintName = "Pods-FanServe"
+               BuildableName = "Pods_appName.framework"
+               BlueprintName = "Pods-appName"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

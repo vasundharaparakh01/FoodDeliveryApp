@@ -17,7 +17,7 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CancelOrderVC" customModule="FanServe" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CancelOrderVC" customModule="appName" customModuleProvider="target">
             <connections>
                 <outlet property="detailLabel" destination="fJJ-nz-hX2" id="ch0-6J-Jd3"/>
                 <outlet property="imgView" destination="Syq-8p-WaX" id="KWN-cB-bag"/>

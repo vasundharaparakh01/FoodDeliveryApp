@@ -86,7 +86,7 @@
 		1DEB204A284FB3540075159F /* PlayerTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DEB2048284FB3540075159F /* PlayerTableCell.xib */; };
 		1DEB204D284FB36E0075159F /* PlayerHeaderTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB204B284FB36E0075159F /* PlayerHeaderTableCell.swift */; };
 		1DEB204E284FB36E0075159F /* PlayerHeaderTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DEB204C284FB36E0075159F /* PlayerHeaderTableCell.xib */; };
-		752B16B1ABAB110E6DF3FB69 /* Pods_FanServe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515B8121AA8A7AC907CE0847 /* Pods_FanServe.framework */; };
+		752B16B1ABAB110E6DF3FB69 /* Pods_appName.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515B8121AA8A7AC907CE0847 /* Pods_appName.framework */; };
 		9C5962B92849AF6F00661F18 /* splashVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C5962B82849AF6F00661F18 /* splashVideo.mp4 */; };
 		9CC940A5284DCF8100E4F62C /* SideMenuWithOutLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CC940A3284DCF8000E4F62C /* SideMenuWithOutLoginVC.xib */; };
 		9CC940A6284DCF8100E4F62C /* SideMenuWithOutLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC940A4284DCF8000E4F62C /* SideMenuWithOutLoginVC.swift */; };
@@ -95,9 +95,6 @@
 		CA1A82B22833AD9000B40F62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1A82B02833AD9000B40F62 /* Main.storyboard */; };
 		CA1A82B42833AD9200B40F62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA1A82B32833AD9200B40F62 /* Assets.xcassets */; };
 		CA1A82B72833AD9200B40F62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1A82B52833AD9200B40F62 /* LaunchScreen.storyboard */; };
-		CA1A82C22833AD9200B40F62 /* FanServeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1A82C12833AD9200B40F62 /* FanServeTests.swift */; };
-		CA1A82CC2833AD9200B40F62 /* FanServeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1A82CB2833AD9200B40F62 /* FanServeUITests.swift */; };
-		CA1A82CE2833AD9200B40F62 /* FanServeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1A82CD2833AD9200B40F62 /* FanServeUITestsLaunchTests.swift */; };
 		CA33D957283D505700160839 /* HomeTableCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA33D955283D505700160839 /* HomeTableCells.swift */; };
 		CA33D958283D505700160839 /* HomeTableCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA33D956283D505700160839 /* HomeTableCells.xib */; };
 		CA37B8C328377DC4005AD503 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA37B8C128377DC4005AD503 /* SideMenuVC.swift */; };
@@ -222,7 +219,6 @@
 		CABBF7912833B624000CC28F /* LanguageString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABBF78D2833B624000CC28F /* LanguageString.swift */; };
 		CABBF7922833B624000CC28F /* ValidationMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABBF78E2833B624000CC28F /* ValidationMessages.swift */; };
 		CABBF7932833B624000CC28F /* ImageConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABBF78F2833B624000CC28F /* ImageConstant.swift */; };
-		CABBF7942833B624000CC28F /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABBF7902833B624000CC28F /* AppConstants.swift */; };
 		CABBF79F2833B6B3000CC28F /* ApiRequestStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABBF7972833B6B2000CC28F /* ApiRequestStructure.swift */; };
 		CABBF7A02833B6B3000CC28F /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABBF7982833B6B2000CC28F /* EndPoints.swift */; };
 		CABBF7A22833B6B3000CC28F /* APIActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABBF79A2833B6B2000CC28F /* APIActivityIndicator.swift */; };
@@ -262,23 +258,6 @@
 		FAEB85252949EE5E0023241F /* FaceIdPasscodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAEB85232949EE5E0023241F /* FaceIdPasscodeViewController.xib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CA1A82BE2833AD9200B40F62 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CA1A829F2833AD9000B40F62 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CA1A82A62833AD9000B40F62;
-			remoteInfo = FanServe;
-		};
-		CA1A82C82833AD9200B40F62 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CA1A829F2833AD9000B40F62 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CA1A82A62833AD9000B40F62;
-			remoteInfo = FanServe;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		1D0B12652857998400C7F64A /* OrderDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailCell.swift; sourceTree = "<group>"; };
 		1D0B1267285799A300C7F64A /* OrderItemTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItemTableCell.swift; sourceTree = "<group>"; };
@@ -312,7 +291,6 @@
 		1D6450FF28BE764D005A7269 /* HSAppleSignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSAppleSignIn.swift; sourceTree = "<group>"; };
 		1D64510028BE764D005A7269 /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
 		1D64510128BE764D005A7269 /* AppleInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleInfoModel.swift; sourceTree = "<group>"; };
-		1D64510828BE7C15005A7269 /* FanServe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FanServe.entitlements; sourceTree = "<group>"; };
 		1D64C810284E5BA900549E5B /* OnBoardCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardCollectionCell.swift; sourceTree = "<group>"; };
 		1D64C811284E5BA900549E5B /* OnBoardCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnBoardCollectionCell.xib; sourceTree = "<group>"; };
 		1D64C816284E6E8000549E5B /* AddOrderPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderPopupVC.swift; sourceTree = "<group>"; };
@@ -361,22 +339,17 @@
 		1DEB2048284FB3540075159F /* PlayerTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerTableCell.xib; sourceTree = "<group>"; };
 		1DEB204B284FB36E0075159F /* PlayerHeaderTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerHeaderTableCell.swift; sourceTree = "<group>"; };
 		1DEB204C284FB36E0075159F /* PlayerHeaderTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerHeaderTableCell.xib; sourceTree = "<group>"; };
-		4DE82AD269648F36768F3F5B /* Pods-FanServe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanServe.debug.xcconfig"; path = "Target Support Files/Pods-FanServe/Pods-FanServe.debug.xcconfig"; sourceTree = "<group>"; };
-		515B8121AA8A7AC907CE0847 /* Pods_FanServe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FanServe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE82AD269648F36768F3F5B /* Pods-appName.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appName.debug.xcconfig"; path = "Target Support Files/Pods-appName/Pods-appName.debug.xcconfig"; sourceTree = "<group>"; };
+		515B8121AA8A7AC907CE0847 /* Pods_appName.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appName.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C5962B82849AF6F00661F18 /* splashVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = splashVideo.mp4; sourceTree = "<group>"; };
 		9CC940A3284DCF8000E4F62C /* SideMenuWithOutLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuWithOutLoginVC.xib; sourceTree = "<group>"; };
 		9CC940A4284DCF8000E4F62C /* SideMenuWithOutLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuWithOutLoginVC.swift; sourceTree = "<group>"; };
-		CA1A82A72833AD9000B40F62 /* FanServe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanServe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1A82A72833AD9000B40F62 /* FoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA1A82AA2833AD9000B40F62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA1A82AC2833AD9000B40F62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CA1A82B12833AD9000B40F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA1A82B32833AD9200B40F62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA1A82B62833AD9200B40F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CA1A82BD2833AD9200B40F62 /* FanServeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanServeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA1A82C12833AD9200B40F62 /* FanServeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanServeTests.swift; sourceTree = "<group>"; };
-		CA1A82C72833AD9200B40F62 /* FanServeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanServeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA1A82CB2833AD9200B40F62 /* FanServeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanServeUITests.swift; sourceTree = "<group>"; };
-		CA1A82CD2833AD9200B40F62 /* FanServeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanServeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CA33D955283D505700160839 /* HomeTableCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableCells.swift; sourceTree = "<group>"; };
 		CA33D956283D505700160839 /* HomeTableCells.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableCells.xib; sourceTree = "<group>"; };
 		CA37B8C128377DC4005AD503 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
@@ -501,7 +474,6 @@
 		CABBF78D2833B624000CC28F /* LanguageString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageString.swift; sourceTree = "<group>"; };
 		CABBF78E2833B624000CC28F /* ValidationMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationMessages.swift; sourceTree = "<group>"; };
 		CABBF78F2833B624000CC28F /* ImageConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageConstant.swift; sourceTree = "<group>"; };
-		CABBF7902833B624000CC28F /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		CABBF7972833B6B2000CC28F /* ApiRequestStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequestStructure.swift; sourceTree = "<group>"; };
 		CABBF7982833B6B2000CC28F /* EndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
 		CABBF79A2833B6B2000CC28F /* APIActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIActivityIndicator.swift; sourceTree = "<group>"; };
@@ -526,7 +498,7 @@
 		CABBF7D42833C3A1000CC28F /* SplashVideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVideoVC.swift; sourceTree = "<group>"; };
 		CABBF7D52833C3A1000CC28F /* SplashVideoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashVideoVC.xib; sourceTree = "<group>"; };
 		CAEE4346283CAF8D00998906 /* HomeTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTabViewController.xib; sourceTree = "<group>"; };
-		CAEE4347283CAF8D00998906 /* HomeTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeTabViewController.swift; path = FanServe/ViewControllers/HomeTabBar/HomeTabViewController.swift; sourceTree = SOURCE_ROOT; };
+		CAEE4347283CAF8D00998906 /* HomeTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeTabViewController.swift; path = appName/ViewControllers/HomeTabBar/HomeTabViewController.swift; sourceTree = SOURCE_ROOT; };
 		CAEED7332844886500F5EA80 /* StaticPagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticPagesVC.swift; sourceTree = "<group>"; };
 		CAEED7342844886500F5EA80 /* StaticPagesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StaticPagesVC.xib; sourceTree = "<group>"; };
 		CAEED73728448BE900F5EA80 /* CustomerServiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerServiceVC.swift; sourceTree = "<group>"; };
@@ -538,7 +510,7 @@
 		FAA1629B294ADD9A00654BC2 /* BiometricViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BiometricViewController.xib; sourceTree = "<group>"; };
 		FAEB85222949EE5E0023241F /* FaceIdPasscodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIdPasscodeViewController.swift; sourceTree = "<group>"; };
 		FAEB85232949EE5E0023241F /* FaceIdPasscodeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FaceIdPasscodeViewController.xib; sourceTree = "<group>"; };
-		FE8062FDA075C4A21F11AD5B /* Pods-FanServe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanServe.release.xcconfig"; path = "Target Support Files/Pods-FanServe/Pods-FanServe.release.xcconfig"; sourceTree = "<group>"; };
+		FE8062FDA075C4A21F11AD5B /* Pods-appName.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appName.release.xcconfig"; path = "Target Support Files/Pods-appName/Pods-appName.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -546,21 +518,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				752B16B1ABAB110E6DF3FB69 /* Pods_FanServe.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA1A82BA2833AD9200B40F62 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA1A82C42833AD9200B40F62 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				752B16B1ABAB110E6DF3FB69 /* Pods_appName.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,7 +528,7 @@
 		1AB107812AE4AE4D64E8BFB1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				515B8121AA8A7AC907CE0847 /* Pods_FanServe.framework */,
+				515B8121AA8A7AC907CE0847 /* Pods_appName.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -736,9 +694,7 @@
 		CA1A829E2833AD9000B40F62 = {
 			isa = PBXGroup;
 			children = (
-				CA1A82A92833AD9000B40F62 /* FanServe */,
-				CA1A82C02833AD9200B40F62 /* FanServeTests */,
-				CA1A82CA2833AD9200B40F62 /* FanServeUITests */,
+				CA1A82A92833AD9000B40F62 /* FoodDelivery */,
 				CA1A82A82833AD9000B40F62 /* Products */,
 				FE4A0F7092DF8B2B589025E1 /* Pods */,
 				1AB107812AE4AE4D64E8BFB1 /* Frameworks */,
@@ -748,17 +704,14 @@
 		CA1A82A82833AD9000B40F62 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CA1A82A72833AD9000B40F62 /* FanServe.app */,
-				CA1A82BD2833AD9200B40F62 /* FanServeTests.xctest */,
-				CA1A82C72833AD9200B40F62 /* FanServeUITests.xctest */,
+				CA1A82A72833AD9000B40F62 /* FoodDeliveryApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CA1A82A92833AD9000B40F62 /* FanServe */ = {
+		CA1A82A92833AD9000B40F62 /* FoodDelivery */ = {
 			isa = PBXGroup;
 			children = (
-				1D64510828BE7C15005A7269 /* FanServe.entitlements */,
 				1D11C085286A0BC300A604D6 /* CoreDataHelper */,
 				1D11C086286A0BC300A604D6 /* ServiceHelper */,
 				9C5962B72849AF6F00661F18 /* SplashVideo */,
@@ -774,24 +727,8 @@
 				CA1A82B32833AD9200B40F62 /* Assets.xcassets */,
 				CA1A82B52833AD9200B40F62 /* LaunchScreen.storyboard */,
 			);
-			path = FanServe;
-			sourceTree = "<group>";
-		};
-		CA1A82C02833AD9200B40F62 /* FanServeTests */ = {
-			isa = PBXGroup;
-			children = (
-				CA1A82C12833AD9200B40F62 /* FanServeTests.swift */,
-			);
-			path = FanServeTests;
-			sourceTree = "<group>";
-		};
-		CA1A82CA2833AD9200B40F62 /* FanServeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CA1A82CB2833AD9200B40F62 /* FanServeUITests.swift */,
-				CA1A82CD2833AD9200B40F62 /* FanServeUITestsLaunchTests.swift */,
-			);
-			path = FanServeUITests;
+			name = FoodDelivery;
+			path = FoodDeliveryApp;
 			sourceTree = "<group>";
 		};
 		CA1A82DA2833AFA700B40F62 /* ViewControllers */ = {
@@ -1155,7 +1092,6 @@
 				CABBF78D2833B624000CC28F /* LanguageString.swift */,
 				CABBF78E2833B624000CC28F /* ValidationMessages.swift */,
 				CABBF78F2833B624000CC28F /* ImageConstant.swift */,
-				CABBF7902833B624000CC28F /* AppConstants.swift */,
 				CA8B10ED2835429D009C47DD /* ColorConstants.swift */,
 			);
 			path = AppConstant;
@@ -1306,8 +1242,8 @@
 		FE4A0F7092DF8B2B589025E1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4DE82AD269648F36768F3F5B /* Pods-FanServe.debug.xcconfig */,
-				FE8062FDA075C4A21F11AD5B /* Pods-FanServe.release.xcconfig */,
+				4DE82AD269648F36768F3F5B /* Pods-appName.debug.xcconfig */,
+				FE8062FDA075C4A21F11AD5B /* Pods-appName.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1315,9 +1251,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CA1A82A62833AD9000B40F62 /* FanServe */ = {
+		CA1A82A62833AD9000B40F62 /* FoodDeliveryApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA1A82D12833AD9200B40F62 /* Build configuration list for PBXNativeTarget "FanServe" */;
+			buildConfigurationList = CA1A82D12833AD9200B40F62 /* Build configuration list for PBXNativeTarget "FoodDeliveryApp" */;
 			buildPhases = (
 				5F66EB762E2E6E11F60AA7D6 /* [CP] Check Pods Manifest.lock */,
 				CA1A82A32833AD9000B40F62 /* Sources */,
@@ -1329,46 +1265,10 @@
 			);
 			dependencies = (
 			);
-			name = FanServe;
-			productName = FanServe;
-			productReference = CA1A82A72833AD9000B40F62 /* FanServe.app */;
+			name = FoodDeliveryApp;
+			productName = appName;
+			productReference = CA1A82A72833AD9000B40F62 /* FoodDeliveryApp.app */;
 			productType = "com.apple.product-type.application";
-		};
-		CA1A82BC2833AD9200B40F62 /* FanServeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CA1A82D42833AD9200B40F62 /* Build configuration list for PBXNativeTarget "FanServeTests" */;
-			buildPhases = (
-				CA1A82B92833AD9200B40F62 /* Sources */,
-				CA1A82BA2833AD9200B40F62 /* Frameworks */,
-				CA1A82BB2833AD9200B40F62 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CA1A82BF2833AD9200B40F62 /* PBXTargetDependency */,
-			);
-			name = FanServeTests;
-			productName = FanServeTests;
-			productReference = CA1A82BD2833AD9200B40F62 /* FanServeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CA1A82C62833AD9200B40F62 /* FanServeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CA1A82D72833AD9200B40F62 /* Build configuration list for PBXNativeTarget "FanServeUITests" */;
-			buildPhases = (
-				CA1A82C32833AD9200B40F62 /* Sources */,
-				CA1A82C42833AD9200B40F62 /* Frameworks */,
-				CA1A82C52833AD9200B40F62 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CA1A82C92833AD9200B40F62 /* PBXTargetDependency */,
-			);
-			name = FanServeUITests;
-			productName = FanServeUITests;
-			productReference = CA1A82C72833AD9200B40F62 /* FanServeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -1382,14 +1282,6 @@
 				TargetAttributes = {
 					CA1A82A62833AD9000B40F62 = {
 						CreatedOnToolsVersion = 13.1;
-					};
-					CA1A82BC2833AD9200B40F62 = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = CA1A82A62833AD9000B40F62;
-					};
-					CA1A82C62833AD9200B40F62 = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = CA1A82A62833AD9000B40F62;
 					};
 				};
 			};
@@ -1406,9 +1298,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CA1A82A62833AD9000B40F62 /* FanServe */,
-				CA1A82BC2833AD9200B40F62 /* FanServeTests */,
-				CA1A82C62833AD9200B40F62 /* FanServeUITests */,
+				CA1A82A62833AD9000B40F62 /* FoodDeliveryApp */,
 			);
 		};
 /* End PBXProject section */
@@ -1509,20 +1399,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA1A82BB2833AD9200B40F62 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA1A82C52833AD9200B40F62 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -1541,7 +1417,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FanServe-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-appName-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1554,15 +1430,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FanServe/Pods-FanServe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-appName/Pods-appName-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FanServe/Pods-FanServe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-appName/Pods-appName-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FanServe/Pods-FanServe-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appName/Pods-appName-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1701,7 +1577,6 @@
 				CABBF7A62833B6B3000CC28F /* ApiList.swift in Sources */,
 				1D354F7B2859DFF6001A0E71 /* DeliveryTypeTableCell.swift in Sources */,
 				1D669764285F2310006963E8 /* ViewPassbookVC.swift in Sources */,
-				CABBF7942833B624000CC28F /* AppConstants.swift in Sources */,
 				CA5EA4AB283B86BB000B3F92 /* QRData.swift in Sources */,
 				1D8D87872859CA2000882664 /* AddOnsTableCell.swift in Sources */,
 				1D64510628BE764D005A7269 /* Keychain.swift in Sources */,
@@ -1736,37 +1611,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA1A82B92833AD9200B40F62 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CA1A82C22833AD9200B40F62 /* FanServeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA1A82C32833AD9200B40F62 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CA1A82CE2833AD9200B40F62 /* FanServeUITestsLaunchTests.swift in Sources */,
-				CA1A82CC2833AD9200B40F62 /* FanServeUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CA1A82BF2833AD9200B40F62 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CA1A82A62833AD9000B40F62 /* FanServe */;
-			targetProxy = CA1A82BE2833AD9200B40F62 /* PBXContainerItemProxy */;
-		};
-		CA1A82C92833AD9200B40F62 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CA1A82A62833AD9000B40F62 /* FanServe */;
-			targetProxy = CA1A82C82833AD9200B40F62 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CA1A82B02833AD9000B40F62 /* Main.storyboard */ = {
@@ -1906,21 +1751,21 @@
 		};
 		CA1A82D22833AD9200B40F62 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DE82AD269648F36768F3F5B /* Pods-FanServe.debug.xcconfig */;
+			baseConfigurationReference = 4DE82AD269648F36768F3F5B /* Pods-appName.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = FanServe/FanServe.entitlements;
+				CODE_SIGN_ENTITLEMENTS = appName/appName.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 31;
-				DEVELOPMENT_TEAM = SU8WGUBN42;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FanServe/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = JDTFanServe;
+				INFOPLIST_FILE = appName/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JDTappName;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Need camera access to take pictures, and scan QR code";
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "FanServe uses Face ID to log you in.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "appName uses Face ID to log you in.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need library access to upload images";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -1935,7 +1780,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.servingfan.fanApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Food.FoodDeliverApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1946,21 +1791,21 @@
 		};
 		CA1A82D32833AD9200B40F62 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE8062FDA075C4A21F11AD5B /* Pods-FanServe.release.xcconfig */;
+			baseConfigurationReference = FE8062FDA075C4A21F11AD5B /* Pods-appName.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = FanServe/FanServe.entitlements;
+				CODE_SIGN_ENTITLEMENTS = appName/appName.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 31;
-				DEVELOPMENT_TEAM = SU8WGUBN42;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FanServe/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = JDTFanServe;
+				INFOPLIST_FILE = appName/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JDTappName;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Need camera access to take pictures, and scan QR code";
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "FanServe uses Face ID to log you in.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "appName uses Face ID to log you in.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need library access to upload images";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -1975,104 +1820,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.servingfan.fanApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Food.FoodDeliverApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		CA1A82D52833AD9200B40F62 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.omnistTechHubSolution.FanServeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FanServe.app/FanServe";
-			};
-			name = Debug;
-		};
-		CA1A82D62833AD9200B40F62 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.omnistTechHubSolution.FanServeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FanServe.app/FanServe";
-			};
-			name = Release;
-		};
-		CA1A82D82833AD9200B40F62 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.omnistTechHubSolution.FanServeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FanServe;
-			};
-			name = Debug;
-		};
-		CA1A82D92833AD9200B40F62 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.omnistTechHubSolution.FanServeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FanServe;
 			};
 			name = Release;
 		};
@@ -2088,29 +1841,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA1A82D12833AD9200B40F62 /* Build configuration list for PBXNativeTarget "FanServe" */ = {
+		CA1A82D12833AD9200B40F62 /* Build configuration list for PBXNativeTarget "FoodDeliveryApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA1A82D22833AD9200B40F62 /* Debug */,
 				CA1A82D32833AD9200B40F62 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CA1A82D42833AD9200B40F62 /* Build configuration list for PBXNativeTarget "FanServeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CA1A82D52833AD9200B40F62 /* Debug */,
-				CA1A82D62833AD9200B40F62 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CA1A82D72833AD9200B40F62 /* Build configuration list for PBXNativeTarget "FanServeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CA1A82D82833AD9200B40F62 /* Debug */,
-				CA1A82D92833AD9200B40F62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

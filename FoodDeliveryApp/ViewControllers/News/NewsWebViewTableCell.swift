@@ -1,6 +1,6 @@
 //
 //  NewsWebViewTableCell.swift
-//  FanServe
+//  appName
 //
 //  Created by McCoy Mart on 19/08/22.
 //

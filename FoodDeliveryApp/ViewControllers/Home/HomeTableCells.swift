@@ -1,6 +1,6 @@
 //
 //  HomeTableCells.swift
-//  FanServe
+//  appName
 //
 //  Created by Varun Kumar Raghav on 24/05/22.
 //

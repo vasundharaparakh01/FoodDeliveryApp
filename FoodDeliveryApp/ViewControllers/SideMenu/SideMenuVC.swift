@@ -1,6 +1,6 @@
 //
 //  SideMenuVC.swift
-//  FanServe
+//  appName
 //
 //  Created by Varun Kumar Raghav on 20/05/22.
 //

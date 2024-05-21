@@ -20,7 +20,7 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeVC" customModule="FanServe" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeVC" customModule="appName" customModuleProvider="target">
             <connections>
                 <outlet property="cartButton" destination="5q1-nD-EPk" id="sNC-gi-Khf"/>
                 <outlet property="firstTeamLogoImageView" destination="Uwk-Tj-aPm" id="9Jb-5V-jcD"/>
@@ -219,7 +219,7 @@
                                 <action selector="menuBtnAction:" destination="-1" eventType="touchUpInside" id="OHv-8Y-gPW"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5q1-nD-EPk" customClass="MIBadgeButton" customModule="FanServe" customModuleProvider="target">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5q1-nD-EPk" customClass="MIBadgeButton" customModule="appName" customModuleProvider="target">
                             <rect key="frame" x="354" y="65" width="50" height="50"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="50" id="2Hx-7a-A9x"/>

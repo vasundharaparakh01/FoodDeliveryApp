@@ -27,7 +27,7 @@
         <!--My Order DetailVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="MyOrderDetailVC" id="BYZ-38-t0r" customClass="MyOrderDetailVC" customModule="FanServe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MyOrderDetailVC" id="BYZ-38-t0r" customClass="MyOrderDetailVC" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -190,7 +190,7 @@
                                     </constraints>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="OrderDetailCell" rowHeight="230" id="cRR-HA-9Al" customClass="OrderDetailCell" customModule="FanServe" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="OrderDetailCell" rowHeight="230" id="cRR-HA-9Al" customClass="OrderDetailCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="267" width="414" height="230"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cRR-HA-9Al" id="ulo-ti-MD3">
@@ -332,7 +332,7 @@
                                             <outlet property="statusLabel" destination="X9e-bS-9By" id="GYZ-Co-DM6"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="OrderItemTableCell" rowHeight="100" id="JrY-ji-uTX" customClass="OrderItemTableCell" customModule="FanServe" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="OrderItemTableCell" rowHeight="100" id="JrY-ji-uTX" customClass="OrderItemTableCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="497" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JrY-ji-uTX" id="Qnw-W0-oA4">
@@ -409,7 +409,7 @@
                                             <outlet property="titleLabel" destination="Q6F-6a-T9X" id="zwl-OJ-Jqj"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="OrderPaymentTableCell" rowHeight="80" id="hMW-6U-7ek" customClass="OrderItemTableCell" customModule="FanServe" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="OrderPaymentTableCell" rowHeight="80" id="hMW-6U-7ek" customClass="OrderItemTableCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="597" width="414" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hMW-6U-7ek" id="SG1-U1-GEP">
@@ -487,7 +487,7 @@
                                             <outlet property="titleLabel" destination="btt-pB-kjT" id="qYC-Xk-Pwg"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="OrderPaymentByTableCell" rowHeight="56" id="P4k-lo-BuF" customClass="OrderItemTableCell" customModule="FanServe" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="OrderPaymentByTableCell" rowHeight="56" id="P4k-lo-BuF" customClass="OrderItemTableCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="677" width="414" height="56"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="P4k-lo-BuF" id="pLD-Sz-UAJ">
@@ -586,7 +586,7 @@
         <!--My CartVC-->
         <scene sceneID="qDp-5f-xTL">
             <objects>
-                <viewController storyboardIdentifier="MyCartVC" id="aHh-td-5nv" customClass="MyCartVC" customModule="FanServe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MyCartVC" id="aHh-td-5nv" customClass="MyCartVC" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JaP-zN-idk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -665,7 +665,7 @@
                             <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="xeg-jx-SBh">
                                 <rect key="frame" x="0.0" y="128" width="414" height="968"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="OrderDetailCell" rowHeight="120" id="uAP-Jz-hE7" customClass="OrderDetailCell" customModule="FanServe" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="OrderDetailCell" rowHeight="120" id="uAP-Jz-hE7" customClass="OrderDetailCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="414" height="120"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uAP-Jz-hE7" id="mix-fH-Bb7">
@@ -758,7 +758,7 @@
                                             <outlet property="starImageview" destination="cOC-JL-JiB" id="kjV-rb-r83"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AppHeaderTableCell" id="2sT-NG-OgA" customClass="AppHeaderTableCell" customModule="FanServe" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AppHeaderTableCell" id="2sT-NG-OgA" customClass="AppHeaderTableCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="170" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2sT-NG-OgA" id="kGO-t4-YlQ">
@@ -808,7 +808,7 @@
                                             <outlet property="qtyLabel" destination="dbI-Mb-Zi0" id="SnU-Zg-7Lh"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CartItemTableCell" rowHeight="165" id="3il-oC-ojD" customClass="CartItemTableCell" customModule="FanServe" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CartItemTableCell" rowHeight="165" id="3il-oC-ojD" customClass="CartItemTableCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="214" width="414" height="165"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3il-oC-ojD" id="UcA-LP-Xtj">
@@ -995,7 +995,7 @@
                                             <outlet property="tblView" destination="bfd-Ch-5zJ" id="wBC-np-MRY"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AppTextviewTableCell" rowHeight="127" id="UHb-5K-eiY" customClass="AppTextviewTableCell" customModule="FanServe" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AppTextviewTableCell" rowHeight="127" id="UHb-5K-eiY" customClass="AppTextviewTableCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="379" width="414" height="127"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UHb-5K-eiY" id="7s2-FM-e8y">
@@ -1054,7 +1054,7 @@
                                             <outlet property="txtView" destination="g3f-ya-c5w" id="CLq-Kq-0W3"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CartDetailTableCell" rowHeight="265" id="iGg-No-IgN" customClass="CartDetailTableCell" customModule="FanServe" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CartDetailTableCell" rowHeight="265" id="iGg-No-IgN" customClass="CartDetailTableCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="506" width="414" height="265"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iGg-No-IgN" id="hNI-xg-QaF">
@@ -1248,7 +1248,7 @@
                                             <outlet property="txtField" destination="aST-PQ-NUD" id="7Ud-WP-7zA"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="OrderPaymentTableCell" rowHeight="80" id="gB5-P6-ItR" customClass="OrderItemTableCell" customModule="FanServe" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="OrderPaymentTableCell" rowHeight="80" id="gB5-P6-ItR" customClass="OrderItemTableCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="771" width="414" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gB5-P6-ItR" id="ftg-nd-34F">
@@ -1367,7 +1367,7 @@
         <!--Place Order PopupVC-->
         <scene sceneID="R6D-gR-mwB">
             <objects>
-                <viewController storyboardIdentifier="PlaceOrderPopupVC" id="NOk-HU-nOt" customClass="PlaceOrderPopupVC" customModule="FanServe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PlaceOrderPopupVC" id="NOk-HU-nOt" customClass="PlaceOrderPopupVC" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1cG-8s-5cw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1463,7 +1463,7 @@
         <!--Edit Delivery TypeVC-->
         <scene sceneID="rYf-qq-eWK">
             <objects>
-                <viewController storyboardIdentifier="EditDeliveryTypeVC" id="fn6-zJ-Nal" customClass="EditDeliveryTypeVC" customModule="FanServe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EditDeliveryTypeVC" id="fn6-zJ-Nal" customClass="EditDeliveryTypeVC" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dde-tc-OHF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1504,7 +1504,7 @@
                                         <rect key="frame" x="0.0" y="60.5" width="364" height="339.5"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="DeliveryTypeTableCell" rowHeight="95" id="jMG-nA-MRs" customClass="DeliveryTypeTableCell" customModule="FanServe" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="DeliveryTypeTableCell" rowHeight="95" id="jMG-nA-MRs" customClass="DeliveryTypeTableCell" customModule="appName" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="50" width="364" height="95"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jMG-nA-MRs" id="6Ue-MM-bSC">
@@ -1671,7 +1671,7 @@
         <!--Product SortVC-->
         <scene sceneID="HdF-KH-pLg">
             <objects>
-                <viewController storyboardIdentifier="ProductSortVC" id="6tk-cD-sHW" customClass="ProductSortVC" customModule="FanServe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProductSortVC" id="6tk-cD-sHW" customClass="ProductSortVC" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bV-ga-hET">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1770,7 +1770,7 @@
                                             </constraints>
                                         </view>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="DeliveryTypeTableCell" id="src-oE-8Ep" customClass="DeliveryTypeTableCell" customModule="FanServe" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="DeliveryTypeTableCell" id="src-oE-8Ep" customClass="DeliveryTypeTableCell" customModule="appName" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="85" width="414" height="30"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="src-oE-8Ep" id="8Ag-LG-X2L">
@@ -1880,7 +1880,7 @@
         <!--Product FilterVC-->
         <scene sceneID="CHt-op-rCd">
             <objects>
-                <viewController storyboardIdentifier="ProductFilterVC" id="2Yp-aH-f25" customClass="ProductFilterVC" customModule="FanServe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProductFilterVC" id="2Yp-aH-f25" customClass="ProductFilterVC" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tCi-9S-c1B">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1957,7 +1957,7 @@
                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AppCategoryCollectionCell" id="92L-dF-ctm" customClass="AppCategoryCollectionCell" customModule="FanServe" customModuleProvider="target">
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AppCategoryCollectionCell" id="92L-dF-ctm" customClass="AppCategoryCollectionCell" customModule="appName" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="123" height="120"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="75F-IB-6BI">
@@ -2020,7 +2020,7 @@
                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryBottomCollectionCell" id="vTJ-KF-ZBk" customClass="AppCategoryCollectionCell" customModule="FanServe" customModuleProvider="target">
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryBottomCollectionCell" id="vTJ-KF-ZBk" customClass="AppCategoryCollectionCell" customModule="appName" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="151" height="50"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="5nQ-8K-xbJ">
@@ -2144,7 +2144,7 @@
         <!--Product ListVC-->
         <scene sceneID="MhE-U6-IdL">
             <objects>
-                <viewController storyboardIdentifier="ProductListVC" id="jfs-0v-qpN" customClass="ProductListVC" customModule="FanServe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProductListVC" id="jfs-0v-qpN" customClass="ProductListVC" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nxn-gT-K14">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2159,7 +2159,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductCollectionCell" id="Lbf-cr-JfK" customClass="ProductCollectionCell" customModule="FanServe" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductCollectionCell" id="Lbf-cr-JfK" customClass="ProductCollectionCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="72" y="50" width="230" height="241"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="zKm-Kn-I6l">
@@ -2177,14 +2177,14 @@
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sgV-nm-m3S" customClass="SFButton" customModule="FanServe" customModuleProvider="target">
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sgV-nm-m3S" customClass="SFButton" customModule="appName" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="230" height="241"/>
                                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                     <connections>
                                                         <action selector="cellImageViewButtonAction:" destination="jfs-0v-qpN" eventType="touchUpInside" id="7Us-zJ-rIy"/>
                                                     </connections>
                                                 </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88S-1C-jSb" customClass="SFButton" customModule="FanServe" customModuleProvider="target">
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88S-1C-jSb" customClass="SFButton" customModule="appName" customModuleProvider="target">
                                                     <rect key="frame" x="195" y="5" width="30" height="30"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="30" id="IN9-Sq-7vP"/>
@@ -2224,7 +2224,7 @@
                                                                 <color key="titleColor" red="0.98823529409999999" green="0.75294117650000003" blue="0.066666666669999999" alpha="1" colorSpace="calibratedRGB"/>
                                                             </state>
                                                         </button>
-                                                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uc4-ie-AzM" customClass="SFButton" customModule="FanServe" customModuleProvider="target">
+                                                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uc4-ie-AzM" customClass="SFButton" customModule="appName" customModuleProvider="target">
                                                             <rect key="frame" x="200" y="50" width="20" height="20"/>
                                                             <color key="backgroundColor" red="0.97254901959999995" green="0.15686274510000001" blue="0.1019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
@@ -2245,7 +2245,7 @@
                                                                 <action selector="cellMinusButtonAction:" destination="jfs-0v-qpN" eventType="touchUpInside" id="qhf-gb-dgG"/>
                                                             </connections>
                                                         </button>
-                                                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cz4-Gc-lei" customClass="SFButton" customModule="FanServe" customModuleProvider="target">
+                                                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cz4-Gc-lei" customClass="SFButton" customModule="appName" customModuleProvider="target">
                                                             <rect key="frame" x="163" y="50" width="20" height="20"/>
                                                             <color key="backgroundColor" red="0.97254901959999995" green="0.15686274510000001" blue="0.1019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
@@ -2275,7 +2275,7 @@
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6D-K4-Ngp" customClass="SFButton" customModule="FanServe" customModuleProvider="target">
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6D-K4-Ngp" customClass="SFButton" customModule="appName" customModuleProvider="target">
                                                             <rect key="frame" x="160" y="47" width="60" height="25"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="25" id="28c-OF-hkv"/>
@@ -2362,7 +2362,7 @@
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
-                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="ProductReusableView" id="pkI-Uk-L6L" customClass="ProductReusableView" customModule="FanServe" customModuleProvider="target">
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="ProductReusableView" id="pkI-Uk-L6L" customClass="ProductReusableView" customModule="appName" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
@@ -2481,7 +2481,7 @@
         <!--Product Add Ons Pop Vc-->
         <scene sceneID="QFi-3p-pkg">
             <objects>
-                <viewController storyboardIdentifier="ProductAddOnsPopVc" id="Es6-UI-6g6" customClass="ProductAddOnsPopVc" customModule="FanServe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProductAddOnsPopVc" id="Es6-UI-6g6" customClass="ProductAddOnsPopVc" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lzb-sW-u81">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2534,7 +2534,7 @@
                                         <rect key="frame" x="0.0" y="63" width="354" height="357"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AppHeaderTableCell" rowHeight="40" id="gf2-CS-3cw" customClass="AppHeaderTableCell" customModule="FanServe" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AppHeaderTableCell" rowHeight="40" id="gf2-CS-3cw" customClass="AppHeaderTableCell" customModule="appName" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="50" width="354" height="40"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gf2-CS-3cw" id="db4-b4-g3z">
@@ -2632,7 +2632,7 @@
         <!--PaymentVC-->
         <scene sceneID="LMd-p8-yRW">
             <objects>
-                <viewController storyboardIdentifier="PaymentVC" id="9Md-zW-Ahg" customClass="PaymentVC" customModule="FanServe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PaymentVC" id="9Md-zW-Ahg" customClass="PaymentVC" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rmD-E1-Yyo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3196,7 +3196,7 @@ Add money in your wallet.</string>
         <!--View PassbookVC-->
         <scene sceneID="tke-OQ-yXQ">
             <objects>
-                <viewController storyboardIdentifier="ViewPassbookVC" id="jGF-Tq-MB7" customClass="ViewPassbookVC" customModule="FanServe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewPassbookVC" id="jGF-Tq-MB7" customClass="ViewPassbookVC" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ktq-gv-pnR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3243,7 +3243,7 @@ Add money in your wallet.</string>
                                 <rect key="frame" x="0.0" y="200.5" width="414" height="661.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="DeliveryTypeTableCell" rowHeight="100" id="aUv-N4-gTT" customClass="DeliveryTypeTableCell" customModule="FanServe" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="DeliveryTypeTableCell" rowHeight="100" id="aUv-N4-gTT" customClass="DeliveryTypeTableCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aUv-N4-gTT" id="BJO-gz-WcZ">
@@ -3439,7 +3439,7 @@ Add money in your wallet.</string>
         <!--Payment Methods BaseVC-->
         <scene sceneID="a2l-06-Cpr">
             <objects>
-                <viewController storyboardIdentifier="PaymentMethodsBaseVC" id="Zkr-9X-70Q" customClass="PaymentMethodsBaseVC" customModule="FanServe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PaymentMethodsBaseVC" id="Zkr-9X-70Q" customClass="PaymentMethodsBaseVC" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JWq-gZ-50T">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3512,7 +3512,7 @@ Add money in your wallet.</string>
         <!--Ewallets ListVC-->
         <scene sceneID="jaZ-ir-5gi">
             <objects>
-                <viewController storyboardIdentifier="EwalletsListVC" id="vN2-Zh-Z4j" customClass="EwalletsListVC" customModule="FanServe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EwalletsListVC" id="vN2-Zh-Z4j" customClass="EwalletsListVC" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cPU-8X-HX8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3521,7 +3521,7 @@ Add money in your wallet.</string>
                                 <rect key="frame" x="0.0" y="58" width="414" height="804"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AppHeaderTableCell" rowHeight="85" id="exR-sY-wME" customClass="AppHeaderTableCell" customModule="FanServe" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AppHeaderTableCell" rowHeight="85" id="exR-sY-wME" customClass="AppHeaderTableCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="414" height="85"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="exR-sY-wME" id="Eqo-2p-26u">
@@ -3603,7 +3603,7 @@ Add money in your wallet.</string>
         <!--Bank DetailVC-->
         <scene sceneID="VXE-5I-SWU">
             <objects>
-                <viewController storyboardIdentifier="BankDetailVC" id="4Aw-5O-mb9" customClass="BankDetailVC" customModule="FanServe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BankDetailVC" id="4Aw-5O-mb9" customClass="BankDetailVC" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mrc-yR-iDB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3696,7 +3696,7 @@ Add money in your wallet.</string>
         <!--Express Pickup PreorderVC-->
         <scene sceneID="VNl-Jn-2XX">
             <objects>
-                <viewController storyboardIdentifier="ExpressPickupPreorderVC" id="ygf-Wh-Xgi" customClass="ExpressPickupPreorderVC" customModule="FanServe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ExpressPickupPreorderVC" id="ygf-Wh-Xgi" customClass="ExpressPickupPreorderVC" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vRz-gi-0Wd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3899,7 +3899,7 @@ Add money in your wallet.</string>
         <!--In Seat Delivery PreorderVC-->
         <scene sceneID="xnR-H0-xGI">
             <objects>
-                <viewController storyboardIdentifier="InSeatDeliveryPreorderVC" id="M3w-sd-iQu" customClass="InSeatDeliveryPreorderVC" customModule="FanServe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InSeatDeliveryPreorderVC" id="M3w-sd-iQu" customClass="InSeatDeliveryPreorderVC" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hd6-Ro-yN3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3973,7 +3973,7 @@ Add money in your wallet.</string>
                                         <rect key="frame" x="0.0" y="46" width="354" height="558"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AppTextfieldTableCell" rowHeight="100" id="op1-m3-UIR" customClass="AppTextfieldTableCell" customModule="FanServe" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AppTextfieldTableCell" rowHeight="100" id="op1-m3-UIR" customClass="AppTextfieldTableCell" customModule="appName" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="50" width="354" height="100"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="op1-m3-UIR" id="tqO-0q-r1f">
@@ -4099,7 +4099,7 @@ Add money in your wallet.</string>
         <!--Custom Image ScrollVC-->
         <scene sceneID="IEJ-Ff-z0e">
             <objects>
-                <viewController storyboardIdentifier="CustomImageScrollVC" id="GcH-D3-gMv" customClass="CustomImageScrollVC" customModule="FanServe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CustomImageScrollVC" id="GcH-D3-gMv" customClass="CustomImageScrollVC" customModule="appName" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KAg-V2-8Fu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4117,7 +4117,7 @@ Add money in your wallet.</string>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AppCategoryCollectionCell" id="SCu-aq-RzA" customClass="AppCategoryCollectionCell" customModule="FanServe" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AppCategoryCollectionCell" id="SCu-aq-RzA" customClass="AppCategoryCollectionCell" customModule="appName" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="178" height="167"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="XwT-cV-gvu">

@@ -20,7 +20,7 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CancelPolicyPopupVC" customModule="FanServe" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CancelPolicyPopupVC" customModule="appName" customModuleProvider="target">
             <connections>
                 <outlet property="agreeButton" destination="zJD-NO-AYM" id="ZLt-d0-my8"/>
                 <outlet property="cancelButton" destination="4L6-Ti-ri4" id="Xxf-oX-KzE"/>

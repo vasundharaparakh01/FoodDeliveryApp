@@ -1,6 +1,6 @@
 //
 //  TrackCollectionCell.swift
-//  FanServe
+//  appName
 //
 //  Created by McCoy Mart on 22/08/22.
 //

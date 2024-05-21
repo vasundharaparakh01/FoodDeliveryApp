@@ -1,13 +1,13 @@
 //
-//  FanServeUITestsLaunchTests.swift
-//  FanServeUITests
+//  appNameUITestsLaunchTests.swift
+//  appNameUITests
 //
 //  Created by Varun Kumar Raghav on 17/05/22.
 //
 
 import XCTest
 
-class FanServeUITestsLaunchTests: XCTestCase {
+class appNameUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  FanServe
+//  appName
 //
 //  Created by Varun Kumar Raghav on 17/05/22.
 //

@@ -1,6 +1,6 @@
 //
 //  MatchTableHeaderCell.swift
-//  FanServe
+//  appName
 //
 //  Created by Varun Kumar Raghav on 25/05/22.
 //

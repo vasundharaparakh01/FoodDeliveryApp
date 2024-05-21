@@ -1,6 +1,6 @@
 //
 //  MyOrderTableCell.swift
-//  FanServe
+//  appName
 //
 //  Created by McCoy Mart on 09/06/22.
 //

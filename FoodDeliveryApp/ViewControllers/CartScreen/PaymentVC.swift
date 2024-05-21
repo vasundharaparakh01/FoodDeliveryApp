@@ -1,6 +1,6 @@
 //
 //  PaymentVC.swift
-//  FanServe
+//  appName
 //
 //  Created by McCoy Mart on 18/06/22.
 //
@@ -291,7 +291,7 @@ class PaymentVC: UIViewController {
     
     fileprivate func pay(secretkey : String) {
         var configuration = PaymentSheet.Configuration()
-        configuration.merchantDisplayName = "JDTFanServe"
+        configuration.merchantDisplayName = "JDTappName"
         
         let paymentSheet = PaymentSheet(
             paymentIntentClientSecret: secretkey,

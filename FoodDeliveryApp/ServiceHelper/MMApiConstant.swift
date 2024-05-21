@@ -17,12 +17,10 @@ let kAccessToken        = "AccessToken"
 let USERDEFAULT = UserDefaults.standard
 let kSplashShown        = "SplashShown"
 
-//let newsImageBaseUrl = "http://54.201.160.69:9125/api/v1/media/"
-let newsImageBaseUrl = "https://serving-fan-bucket.s3.ap-southeast-1.amazonaws.com/"
+//let newsImageBaseUrl = "http://"
+let newsImageBaseUrl = "https://"
 
 let APPDELEGATE =  UIApplication.shared.delegate as! AppDelegate
-
-let signInConfig = GIDConfiguration(clientID: "946823240291-9011l431in55kmk50o187qm1flumt942.apps.googleusercontent.com")
 
 var currentLocation = CLLocation()
 

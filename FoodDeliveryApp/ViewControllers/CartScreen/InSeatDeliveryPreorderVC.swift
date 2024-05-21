@@ -1,6 +1,6 @@
 //
 //  InSeatDeliveryPreorderVC.swift
-//  FanServe
+//  appName
 //
 //  Created by McCoy Mart on 22/06/22.
 //

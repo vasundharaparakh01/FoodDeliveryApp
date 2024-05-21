@@ -1,6 +1,6 @@
 //
 //  ApiResponseStructure.swift
-//  FanServe
+//  appName
 //
 //  Created by Vishal Mandhyan on 27/06/21.
 //

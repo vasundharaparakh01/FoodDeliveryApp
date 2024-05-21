@@ -1,6 +1,6 @@
 //
 //  ApiRequestStructure.swift
-//  FanServe
+//  appName
 //
 
 

@@ -1,6 +1,6 @@
 //
 //  AppCategoryCollectionCell.swift
-//  FanServe
+//  appName
 //
 //  Created by McCoy Mart on 16/06/22.
 //

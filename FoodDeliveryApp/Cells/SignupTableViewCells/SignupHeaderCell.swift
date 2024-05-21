@@ -1,6 +1,6 @@
 //
 //  SignupHeaderCell.swift
-//  FanServe
+//  appName
 //
 //  Created by Varun Kumar Raghav on 19/05/22.
 //

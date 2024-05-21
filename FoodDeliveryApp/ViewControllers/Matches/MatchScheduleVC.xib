@@ -20,7 +20,7 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MatchScheduleVC" customModule="FanServe" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MatchScheduleVC" customModule="appName" customModuleProvider="target">
             <connections>
                 <outlet property="dateLabel" destination="jqu-Fp-zi3" id="gBi-b4-c2R"/>
                 <outlet property="dayLabel" destination="7hU-Yx-Cuh" id="fwL-cH-lCF"/>

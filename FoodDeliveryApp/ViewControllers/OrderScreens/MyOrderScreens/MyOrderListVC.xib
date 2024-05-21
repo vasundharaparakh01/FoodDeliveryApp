@@ -14,7 +14,7 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyOrderListVC" customModule="FanServe" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyOrderListVC" customModule="appName" customModuleProvider="target">
             <connections>
                 <outlet property="searchField" destination="bJ4-ng-KOE" id="rOB-I0-G63"/>
                 <outlet property="searchView" destination="pqk-hq-aY7" id="Uba-j6-MaM"/>

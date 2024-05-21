@@ -1,6 +1,6 @@
 //
 //  RatingAlertVC.swift
-//  FanServe
+//  appName
 //
 //  Created by Varun Kumar Raghav on 26/05/22.
 //

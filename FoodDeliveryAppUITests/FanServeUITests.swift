@@ -1,13 +1,13 @@
 //
-//  FanServeUITests.swift
-//  FanServeUITests
+//  appNameUITests.swift
+//  appNameUITests
 //
 //  Created by Varun Kumar Raghav on 17/05/22.
 //
 
 import XCTest
 
-class FanServeUITests: XCTestCase {
+class appNameUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -17,7 +17,7 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RatingAlertVC" customModule="FanServe" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RatingAlertVC" customModule="appName" customModuleProvider="target">
             <connections>
                 <outlet property="ratingView" destination="wI6-Kc-8xn" id="NqI-aY-6f2"/>
                 <outlet property="view" destination="cqq-1w-dIm" id="sLI-eI-8R5"/>
@@ -62,7 +62,7 @@
                             <color key="textColor" red="0.32156862749999998" green="0.32156862749999998" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wI6-Kc-8xn" customClass="CosmosView" customModule="FanServe" customModuleProvider="target">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wI6-Kc-8xn" customClass="CosmosView" customModule="appName" customModuleProvider="target">
                             <rect key="frame" x="71" y="138" width="194" height="33"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <constraints>

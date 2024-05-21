@@ -1,6 +1,6 @@
 //
 //  HomeHeaderTableCell.swift
-//  FanServe
+//  appName
 //
 //  Created by McCoy Mart on 08/06/22.
 //

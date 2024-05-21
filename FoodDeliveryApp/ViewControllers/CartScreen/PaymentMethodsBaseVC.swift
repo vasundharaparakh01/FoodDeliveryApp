@@ -1,6 +1,6 @@
 //
 //  PaymentMethodsBaseVC.swift
-//  FanServe
+//  appName
 //
 //  Created by McCoy Mart on 19/06/22.
 //

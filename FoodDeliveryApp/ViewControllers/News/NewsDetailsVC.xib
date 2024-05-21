@@ -14,7 +14,7 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewsDetailsVC" customModule="FanServe" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewsDetailsVC" customModule="appName" customModuleProvider="target">
             <connections>
                 <outlet property="tblView" destination="r2a-jO-lPT" id="xCc-2L-eGA"/>
                 <outlet property="view" destination="pgH-ih-Rtt" id="nGs-Rm-h4c"/>

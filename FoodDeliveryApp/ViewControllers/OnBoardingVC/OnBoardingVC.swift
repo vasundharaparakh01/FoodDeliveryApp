@@ -1,6 +1,6 @@
 //
 //  OnBoardingVC.swift
-//  FanServe
+//  appName
 //
 //  Created by Varun Kumar Raghav on 18/05/22.
 //

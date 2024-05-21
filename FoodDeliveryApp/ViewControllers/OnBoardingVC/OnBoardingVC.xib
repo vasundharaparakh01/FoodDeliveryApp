@@ -20,7 +20,7 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OnBoardingVC" customModule="FanServe" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OnBoardingVC" customModule="appName" customModuleProvider="target">
             <connections>
                 <outlet property="collectionView" destination="j9E-cT-uwu" id="DMv-m4-6N4"/>
                 <outlet property="contentView" destination="i5M-Pr-FkT" id="Oa5-EA-4Z6"/>

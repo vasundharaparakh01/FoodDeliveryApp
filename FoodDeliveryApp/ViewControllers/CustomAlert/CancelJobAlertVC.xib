@@ -17,7 +17,7 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CancelJobAlertVC" customModule="FanServe" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CancelJobAlertVC" customModule="appName" customModuleProvider="target">
             <connections>
                 <outlet property="detailTextView" destination="fjZ-7k-glN" id="3Te-zY-cF0"/>
                 <outlet property="okBtn" destination="DpY-DV-rIb" id="cR9-Jf-2ot"/>

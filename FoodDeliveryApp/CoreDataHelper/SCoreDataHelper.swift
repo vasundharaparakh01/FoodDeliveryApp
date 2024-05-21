@@ -1,6 +1,6 @@
 //
 //  SCoreDataHelper.swift
-//  FanServe
+//  appName
 //
 //  Created by McCoy Mart on 27/06/22.
 //

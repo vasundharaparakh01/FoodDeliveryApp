@@ -1,6 +1,6 @@
 //
 //  APIActivityIndicator.swift
-//  FanServe
+//  appName
 //
 
 

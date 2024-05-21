@@ -883,7 +883,7 @@
 		5745AA5C692118200C7B641E6979AD15 /* STDSAuthenticationRequestParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5E2972DBB9B7E66D4028F7E210AA6B /* STDSAuthenticationRequestParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5749DBA9FA6A85B4C3DCA0B34D1964AB /* back_button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C66293C7DF2BA330034825E3A0905D /* back_button@3x.png */; };
 		574D0253432B9FF355F3BA729E8F0253 /* ConsumerSession+LookupResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975708FAC9726DDD3AE2F52F3F076797 /* ConsumerSession+LookupResponse.swift */; };
-		575EE039A952AD166C39BDA1B29FEE19 /* Pods-FanServe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C174DD81230EB22C1EA64BAEE94E7AFD /* Pods-FanServe-dummy.m */; };
+		575EE039A952AD166C39BDA1B29FEE19 /* Pods-appName-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C174DD81230EB22C1EA64BAEE94E7AFD /* Pods-appName-dummy.m */; };
 		575EF78FDE4EC0B40394AC9378DC3B83 /* ca-ES.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0DBB0DD2E9B05C5C9565A8334AB9A856 /* ca-ES.lproj */; };
 		577C795A42BFD3DD0F5993194F6B7F8D /* FBSDKDeviceViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F994F18C807608DD97F2069FE1DF9AB /* FBSDKDeviceViewControllerBase.m */; };
 		577EBDBA62389A3038F5813D81FDACB3 /* FBSDKStandaloneModel.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 06C76D14B7ABAB89364A44B6DC71DC76 /* FBSDKStandaloneModel.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -2149,7 +2149,7 @@
 		D15EB703224129A0829A052D951DACEC /* PaymentSheetConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F148CD3A6B1CC9F55177BCCE6285659F /* PaymentSheetConfiguration.swift */; };
 		D1A747A32EDCC74F8FFB7F40FD05D7E7 /* BackwardsCompatibleColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9E3686F6825C69EE349F9B351BABF6 /* BackwardsCompatibleColors.swift */; };
 		D1B60C31ACDCD084E27040EFF9A94278 /* FIRApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 2667669D8CF4099008A9253FE835F7F1 /* FIRApp.m */; };
-		D1BCF4A140BD8784A9C26CC83F29A72C /* Pods-FanServe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9C4F522F9276992D64527DF1FB57CD /* Pods-FanServe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1BCF4A140BD8784A9C26CC83F29A72C /* Pods-appName-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9C4F522F9276992D64527DF1FB57CD /* Pods-appName-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D236849CD174D19CDF12BC1D1B5264E9 /* FBSDKUIUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A7DC8AB5ADBFB8F06EC4E3A6B73BA3 /* FBSDKUIUtility.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D249B5D7930AF9208BA04C7465B4D432 /* lt-LT.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 18C17F2E00DC9916EC1D4151411A4FFD /* lt-LT.lproj */; };
 		D26346ACE7AF4B9E0FB4A47B6FD9521C /* NSAttributedString+Stripe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ABC8A5BB74D85B0EE2A10E7A2A0E75 /* NSAttributedString+Stripe.swift */; };
@@ -3829,7 +3829,7 @@
 		2C515C4014B05632A04C087343FE9808 /* FIRConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRConfiguration.m; path = FirebaseCore/Sources/FIRConfiguration.m; sourceTree = "<group>"; };
 		2C6C0BD26935A45B24CE4E773049057B /* SDAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImageView.m; path = SDWebImage/Core/SDAnimatedImageView.m; sourceTree = "<group>"; };
 		2C7A39AF1B2CACE7E549FEA05AEE8EEE /* icon_add_bordered@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_add_bordered@3x.png"; path = "Stripe/Resources/Images/Link/icon_add_bordered@3x.png"; sourceTree = "<group>"; };
-		2C9C4F522F9276992D64527DF1FB57CD /* Pods-FanServe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FanServe-umbrella.h"; sourceTree = "<group>"; };
+		2C9C4F522F9276992D64527DF1FB57CD /* Pods-appName-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-appName-umbrella.h"; sourceTree = "<group>"; };
 		2CB584193F72D655E531B75CAD5BF881 /* GIDCallbackQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GIDCallbackQueue.h; path = GoogleSignIn/Sources/GIDCallbackQueue.h; sourceTree = "<group>"; };
 		2CBA58255C1AC7BBAC5157DC5B6FCE08 /* GIDAuthentication_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GIDAuthentication_Private.h; path = GoogleSignIn/Sources/GIDAuthentication_Private.h; sourceTree = "<group>"; };
 		2CE38E2FD6D21576D9E65D41F2765F27 /* IQKeyboardManager+UITextFieldViewNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardManager+UITextFieldViewNotification.swift"; path = "IQKeyboardManagerSwift/IQKeyboardManager+UITextFieldViewNotification.swift"; sourceTree = "<group>"; };
@@ -4023,7 +4023,7 @@
 		3FE217AF70B1CCAA876416D45E9BD407 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		402A033F3BC436B2C2F8671BA1CB6A36 /* CheckboxButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckboxButton.swift; path = StripeUICore/StripeUICore/Source/Elements/Checkbox/CheckboxButton.swift; sourceTree = "<group>"; };
 		405C00C98ADE034D8AAB26B769BFAF3B /* STPPaymentMethodAffirmParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STPPaymentMethodAffirmParams.swift; path = Stripe/STPPaymentMethodAffirmParams.swift; sourceTree = "<group>"; };
-		4087968DB39E8FCECDD7978488DC2D22 /* Pods-FanServe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FanServe.debug.xcconfig"; sourceTree = "<group>"; };
+		4087968DB39E8FCECDD7978488DC2D22 /* Pods-appName.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-appName.debug.xcconfig"; sourceTree = "<group>"; };
 		4097D1CA369143F70E9F5B04313CDD85 /* FBSDKBridgeAPIProtocolWebV1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKBridgeAPIProtocolWebV1.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/BridgeAPI/ProtocolVersions/FBSDKBridgeAPIProtocolWebV1.h; sourceTree = "<group>"; };
 		40A100124F9D0F0C025AC7769585EFEF /* StripeUICore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StripeUICore-umbrella.h"; sourceTree = "<group>"; };
 		40BAD959CCABC95DE7CD74E67FEBAF83 /* hu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = hu.lproj; path = Stripe/Resources/Localizations/hu.lproj; sourceTree = "<group>"; };
@@ -4127,7 +4127,7 @@
 		4A195B02BD54B55C392FB8D38FE93D94 /* STPCoreTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STPCoreTableViewController.swift; path = Stripe/STPCoreTableViewController.swift; sourceTree = "<group>"; };
 		4A1CB3FF30A7B171672ED34744174CD7 /* Cosmos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.debug.xcconfig; sourceTree = "<group>"; };
 		4A40F5394272BB70095D2B6C712AD9CC /* STDSFooterCustomization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STDSFooterCustomization.h; path = Stripe3DS2/Stripe3DS2/include/STDSFooterCustomization.h; sourceTree = "<group>"; };
-		4A46F64C4A6B23F227C4A0936BDDC29A /* Pods-FanServe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FanServe.release.xcconfig"; sourceTree = "<group>"; };
+		4A46F64C4A6B23F227C4A0936BDDC29A /* Pods-appName.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-appName.release.xcconfig"; sourceTree = "<group>"; };
 		4A71256A884FC8CAD6D6119E092A663E /* STDSChallengeResponseSelectionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STDSChallengeResponseSelectionInfo.h; path = Stripe3DS2/Stripe3DS2/STDSChallengeResponseSelectionInfo.h; sourceTree = "<group>"; };
 		4AB1537C6828C51544C845CA25A290CA /* FIRMessagingPersistentSyncMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRMessagingPersistentSyncMessage.m; path = FirebaseMessaging/Sources/FIRMessagingPersistentSyncMessage.m; sourceTree = "<group>"; };
 		4AE843B7D769459CCA9F34781AB928EC /* STPBankAccountParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STPBankAccountParams.swift; path = Stripe/STPBankAccountParams.swift; sourceTree = "<group>"; };
@@ -4170,7 +4170,7 @@
 		4D568AADCAB3BE811478FBDAFB46AA28 /* FIRCoreDiagnosticsConnector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCoreDiagnosticsConnector.h; path = FirebaseCore/Extension/FIRCoreDiagnosticsConnector.h; sourceTree = "<group>"; };
 		4D61236068667EF90FC40FCCD453CB82 /* FBSDKGraphRequestPiggybackManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKGraphRequestPiggybackManager.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/Network/FBSDKGraphRequestPiggybackManager.h; sourceTree = "<group>"; };
 		4D6323BB915AAA81E586092E6924B502 /* STPCardFormView+SwiftUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "STPCardFormView+SwiftUI.swift"; path = "Stripe/STPCardFormView+SwiftUI.swift"; sourceTree = "<group>"; };
-		4D66727656413A0DC0465F985EEC8771 /* Pods-FanServe-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FanServe-Info.plist"; sourceTree = "<group>"; };
+		4D66727656413A0DC0465F985EEC8771 /* Pods-appName-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-appName-Info.plist"; sourceTree = "<group>"; };
 		4DA9F5A82BE4F4014ED42278E9EDA3CD /* STPSourceWeChatPayDetails.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STPSourceWeChatPayDetails.swift; path = Stripe/STPSourceWeChatPayDetails.swift; sourceTree = "<group>"; };
 		4DAB9D3897071161E829C735432B51C0 /* STPCardNumberInputTextFieldValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STPCardNumberInputTextFieldValidator.swift; path = Stripe/STPCardNumberInputTextFieldValidator.swift; sourceTree = "<group>"; };
 		4DC00AF9E4AAF516D7CA7DBE2F425573 /* STPCountryPickerInputField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STPCountryPickerInputField.swift; path = Stripe/STPCountryPickerInputField.swift; sourceTree = "<group>"; };
@@ -4229,7 +4229,7 @@
 		51EAD357342AFE9B24667C453D992C91 /* FBSDKLoginKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSDKLoginKit.modulemap; sourceTree = "<group>"; };
 		51ED1F14686881156DE23113328CF310 /* SDWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImage.h; path = WebImage/SDWebImage.h; sourceTree = "<group>"; };
 		520CA4C79417CD1C60926E2120D0F9E7 /* DynamicHeightContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicHeightContainerView.swift; path = StripeUICore/StripeUICore/Source/Views/DynamicHeightContainerView.swift; sourceTree = "<group>"; };
-		523534D4B3A9659B1A919E5E4AD27894 /* Pods-FanServe-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FanServe-acknowledgements.markdown"; sourceTree = "<group>"; };
+		523534D4B3A9659B1A919E5E4AD27894 /* Pods-appName-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-appName-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5238AD92F7AD468776A1F9CEFCB94AD6 /* FacebookCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FacebookCore-dummy.m"; sourceTree = "<group>"; };
 		523C0731C2FC1D992048F24FC47DF094 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = Stripe/Resources/Localizations/en.lproj; sourceTree = "<group>"; };
 		52657A237E59DF8711550F3812C04981 /* NVActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
@@ -4457,7 +4457,7 @@
 		64C2DAA6008374D8FFB8ED5344E2CE1B /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = nl.lproj; path = StripeCore/StripeCore/Resources/Localizations/nl.lproj; sourceTree = "<group>"; };
 		64CE4C1ED525330E0B7AE4D110E900CB /* TextFieldElement+Card.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TextFieldElement+Card.swift"; path = "Stripe/TextFieldElement+Card.swift"; sourceTree = "<group>"; };
 		64D2E33E250A012143C962E594EBCB71 /* FIRCoreDiagnosticsData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCoreDiagnosticsData.h; path = Interop/CoreDiagnostics/Public/FIRCoreDiagnosticsData.h; sourceTree = "<group>"; };
-		64F556321F170AB15BA907E89FB89EE5 /* Pods-FanServe-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FanServe-frameworks.sh"; sourceTree = "<group>"; };
+		64F556321F170AB15BA907E89FB89EE5 /* Pods-appName-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-appName-frameworks.sh"; sourceTree = "<group>"; };
 		6524EDFCAC9E1B1C2D58D72F971AAB53 /* SwiftyJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.debug.xcconfig; sourceTree = "<group>"; };
 		65534B3E7542AD8014F3C36C2CEDA492 /* cartes-bancaires-logo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cartes-bancaires-logo.png"; path = "Stripe3DS2/Stripe3DS2/Resources/Images/cartes-bancaires-logo.png"; sourceTree = "<group>"; };
 		65727E6AB847DB9AF04A94ACCD4F556F /* au_becs_bsb.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = au_becs_bsb.json; path = Stripe/Resources/au_becs_bsb.json; sourceTree = "<group>"; };
@@ -4966,7 +4966,7 @@
 		90AD4E28CCE2EB258908D281F9437DDF /* PaymentSheetFormFactory+UPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PaymentSheetFormFactory+UPI.swift"; path = "Stripe/PaymentSheetFormFactory+UPI.swift"; sourceTree = "<group>"; };
 		910F92C00DF23F2931A8E01B7F7A3106 /* FBSDKInternalUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKInternalUtility.m; path = FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKInternalUtility.m; sourceTree = "<group>"; };
 		9111BD2EC0546096433577EE074B120D /* FIRBundleUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRBundleUtil.m; path = FirebaseCore/Sources/FIRBundleUtil.m; sourceTree = "<group>"; };
-		91230DE0339AE75B16635EC6AAE8BA8B /* Pods-FanServe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FanServe.modulemap"; sourceTree = "<group>"; };
+		91230DE0339AE75B16635EC6AAE8BA8B /* Pods-appName.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-appName.modulemap"; sourceTree = "<group>"; };
 		9141A3F8966723566B9CBCA78D8642B1 /* stp_card_unionpay_template_zh@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_unionpay_template_zh@3x.png"; path = "Stripe/Resources/Images/Cards/stp_card_unionpay_template_zh@3x.png"; sourceTree = "<group>"; };
 		9192C5922DC3D24F63F330AF5E4A494C /* STPiDEALBank.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STPiDEALBank.swift; path = Stripe/STPiDEALBank.swift; sourceTree = "<group>"; };
 		92017EDD7C5D3CE8DA4E10D793FB4717 /* PKAddPaymentPassRequest+Stripe_Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PKAddPaymentPassRequest+Stripe_Error.swift"; path = "Stripe/PKAddPaymentPassRequest+Stripe_Error.swift"; sourceTree = "<group>"; };
@@ -5464,7 +5464,7 @@
 		C1616A7CE9F5C5419D298CED343286B2 /* FBSDKServerConfigurationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKServerConfigurationManager.m; path = FBSDKCoreKit/FBSDKCoreKit/Internal/ServerConfiguration/FBSDKServerConfigurationManager.m; sourceTree = "<group>"; };
 		C16A8631816E37FBF58158DB59D23531 /* STPFormEncodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STPFormEncodable.swift; path = Stripe/STPFormEncodable.swift; sourceTree = "<group>"; };
 		C1717554673E3B9984E505A5286457C9 /* GDTCORConsoleLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORConsoleLogger.h; path = GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORConsoleLogger.h; sourceTree = "<group>"; };
-		C174DD81230EB22C1EA64BAEE94E7AFD /* Pods-FanServe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FanServe-dummy.m"; sourceTree = "<group>"; };
+		C174DD81230EB22C1EA64BAEE94E7AFD /* Pods-appName-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-appName-dummy.m"; sourceTree = "<group>"; };
 		C18897B1C093075FD708356AFDE8D178 /* UserDefaults+PaymentsCore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UserDefaults+PaymentsCore.swift"; path = "StripeApplePay/StripeApplePay/Source/PaymentsCore/Categories/UserDefaults+PaymentsCore.swift"; sourceTree = "<group>"; };
 		C1998E0D8085221AD87F89B614C10E52 /* GTMSessionFetcher */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMSessionFetcher; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B323F7366706FE2B25935E7F90AC57 /* FBSDKDeviceButton+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBSDKDeviceButton+Internal.h"; path = "FBSDKCoreKit/FBSDKCoreKit/Internal/Device/FBSDKDeviceButton+Internal.h"; sourceTree = "<group>"; };
@@ -5633,7 +5633,7 @@
 		D0DBAD2E08A53D24081FA26E9C9C136A /* LoginManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginManager.swift; path = Sources/Login/LoginManager.swift; sourceTree = "<group>"; };
 		D100D574AED8D0413FFFFF114730996B /* google.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = google.png; path = GoogleSignIn/Sources/Resources/google.png; sourceTree = "<group>"; };
 		D11D79369C13054DC4E482677C7A94AC /* FIRHeartbeatLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRHeartbeatLogger.h; path = FirebaseCore/Extension/FIRHeartbeatLogger.h; sourceTree = "<group>"; };
-		D12AD50DDEF4843EBC58BFC762C1EED7 /* Pods-FanServe */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FanServe"; path = Pods_FanServe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12AD50DDEF4843EBC58BFC762C1EED7 /* Pods-appName */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-appName"; path = Pods_appName.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D16C2134018BF63A4A68123D26617584 /* FBSDKBridgeAPIProtocolWebV2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKBridgeAPIProtocolWebV2.m; path = FBSDKCoreKit/FBSDKCoreKit/Internal/BridgeAPI/ProtocolVersions/FBSDKBridgeAPIProtocolWebV2.m; sourceTree = "<group>"; };
 		D19D3114D17729A651B7DD0F91CE32C8 /* STDSNotInitializedException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STDSNotInitializedException.h; path = Stripe3DS2/Stripe3DS2/include/STDSNotInitializedException.h; sourceTree = "<group>"; };
 		D1A9075ADE6C8A25A60F5814390A82B9 /* STDSDeviceInformation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STDSDeviceInformation.m; path = Stripe3DS2/Stripe3DS2/STDSDeviceInformation.m; sourceTree = "<group>"; };
@@ -6074,7 +6074,7 @@
 		FB439F2E84A59BDD87F7AF7D259878CD /* es-419.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "es-419.lproj"; path = "Stripe3DS2/Stripe3DS2/Resources/es-419.lproj"; sourceTree = "<group>"; };
 		FB5E35B9E0D595ED55FB0B7B90C12C35 /* pt-BR.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "pt-BR.lproj"; path = "StripeUICore/StripeUICore/Resources/Localizations/pt-BR.lproj"; sourceTree = "<group>"; };
 		FB623ADF9A85B6AD0C1684D488442319 /* GIDSignInInternalOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GIDSignInInternalOptions.h; path = GoogleSignIn/Sources/GIDSignInInternalOptions.h; sourceTree = "<group>"; };
-		FB6B9AD0BC3D5990331AA0898BF1D3ED /* Pods-FanServe-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FanServe-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB6B9AD0BC3D5990331AA0898BF1D3ED /* Pods-appName-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-appName-acknowledgements.plist"; sourceTree = "<group>"; };
 		FB74D6E2267359090F1E83FED4083484 /* STPUserInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STPUserInformation.swift; path = Stripe/STPUserInformation.swift; sourceTree = "<group>"; };
 		FB9FC80226F5300FFA2EA4626A463CBB /* mt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = mt.lproj; path = StripeCore/StripeCore/Resources/Localizations/mt.lproj; sourceTree = "<group>"; };
 		FBDC112C616AD42B1AA4890145617823 /* FBSDKAccessToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKAccessToken.m; path = FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.m; sourceTree = "<group>"; };
@@ -7086,21 +7086,21 @@
 			path = GTMAppAuth;
 			sourceTree = "<group>";
 		};
-		3F4D82C38BAC0923CA08CB81609C8845 /* Pods-FanServe */ = {
+		3F4D82C38BAC0923CA08CB81609C8845 /* Pods-appName */ = {
 			isa = PBXGroup;
 			children = (
-				91230DE0339AE75B16635EC6AAE8BA8B /* Pods-FanServe.modulemap */,
-				523534D4B3A9659B1A919E5E4AD27894 /* Pods-FanServe-acknowledgements.markdown */,
-				FB6B9AD0BC3D5990331AA0898BF1D3ED /* Pods-FanServe-acknowledgements.plist */,
-				C174DD81230EB22C1EA64BAEE94E7AFD /* Pods-FanServe-dummy.m */,
-				64F556321F170AB15BA907E89FB89EE5 /* Pods-FanServe-frameworks.sh */,
-				4D66727656413A0DC0465F985EEC8771 /* Pods-FanServe-Info.plist */,
-				2C9C4F522F9276992D64527DF1FB57CD /* Pods-FanServe-umbrella.h */,
-				4087968DB39E8FCECDD7978488DC2D22 /* Pods-FanServe.debug.xcconfig */,
-				4A46F64C4A6B23F227C4A0936BDDC29A /* Pods-FanServe.release.xcconfig */,
+				91230DE0339AE75B16635EC6AAE8BA8B /* Pods-appName.modulemap */,
+				523534D4B3A9659B1A919E5E4AD27894 /* Pods-appName-acknowledgements.markdown */,
+				FB6B9AD0BC3D5990331AA0898BF1D3ED /* Pods-appName-acknowledgements.plist */,
+				C174DD81230EB22C1EA64BAEE94E7AFD /* Pods-appName-dummy.m */,
+				64F556321F170AB15BA907E89FB89EE5 /* Pods-appName-frameworks.sh */,
+				4D66727656413A0DC0465F985EEC8771 /* Pods-appName-Info.plist */,
+				2C9C4F522F9276992D64527DF1FB57CD /* Pods-appName-umbrella.h */,
+				4087968DB39E8FCECDD7978488DC2D22 /* Pods-appName.debug.xcconfig */,
+				4A46F64C4A6B23F227C4A0936BDDC29A /* Pods-appName.release.xcconfig */,
 			);
-			name = "Pods-FanServe";
-			path = "Target Support Files/Pods-FanServe";
+			name = "Pods-appName";
+			path = "Target Support Files/Pods-appName";
 			sourceTree = "<group>";
 		};
 		44EADE723FA42C221BA9828AB14E877A /* Support Files */ = {
@@ -8540,7 +8540,7 @@
 		91896B81CACFD4E3FA68BC1FDFACEE79 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3F4D82C38BAC0923CA08CB81609C8845 /* Pods-FanServe */,
+				3F4D82C38BAC0923CA08CB81609C8845 /* Pods-appName */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -9624,7 +9624,7 @@
 				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */,
 				06FC5C9CF96D60C50FCD47D339C91951 /* nanopb */,
 				A1B9F27862201CD82B398E0B35B14128 /* NVActivityIndicatorView */,
-				D12AD50DDEF4843EBC58BFC762C1EED7 /* Pods-FanServe */,
+				D12AD50DDEF4843EBC58BFC762C1EED7 /* Pods-appName */,
 				3347A1AB6546F0A3977529B8F199DC41 /* PromisesObjC */,
 				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage */,
 				2206DE2F3FA7264A50C2C90013B40A04 /* SKPhotoBrowser */,
@@ -11093,7 +11093,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1BCF4A140BD8784A9C26CC83F29A72C /* Pods-FanServe-umbrella.h in Headers */,
+				D1BCF4A140BD8784A9C26CC83F29A72C /* Pods-appName-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -12097,9 +12097,9 @@
 			productReference = A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift */;
 			productType = "com.apple.product-type.framework";
 		};
-		BBF93108649CB79B95581F72CC6E3E4B /* Pods-FanServe */ = {
+		BBF93108649CB79B95581F72CC6E3E4B /* Pods-appName */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9D2F70D123D35BB61E1A033DFA047EA /* Build configuration list for PBXNativeTarget "Pods-FanServe" */;
+			buildConfigurationList = A9D2F70D123D35BB61E1A033DFA047EA /* Build configuration list for PBXNativeTarget "Pods-appName" */;
 			buildPhases = (
 				D299A599ECEE259BB024A4AC5285EE63 /* Headers */,
 				3E58A2EE12775E98EFAC5A3916B95487 /* Sources */,
@@ -12152,9 +12152,9 @@
 				C9F0F506FB76FAB3BA2724C4D7E56180 /* PBXTargetDependency */,
 				8C21B647761B2FBDED2DB07F355ADE44 /* PBXTargetDependency */,
 			);
-			name = "Pods-FanServe";
-			productName = Pods_FanServe;
-			productReference = D12AD50DDEF4843EBC58BFC762C1EED7 /* Pods-FanServe */;
+			name = "Pods-appName";
+			productName = Pods_appName;
+			productReference = D12AD50DDEF4843EBC58BFC762C1EED7 /* Pods-appName */;
 			productType = "com.apple.product-type.framework";
 		};
 		CAD3534FC55B0333104E5117C0A9A324 /* GoogleSignIn */ = {
@@ -12418,7 +12418,7 @@
 				82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */,
 				D2B5E7DCCBBFB32341D857D01211A1A3 /* nanopb */,
 				AF8A82876C43F4DFD625D1823E680EAC /* NVActivityIndicatorView */,
-				BBF93108649CB79B95581F72CC6E3E4B /* Pods-FanServe */,
+				BBF93108649CB79B95581F72CC6E3E4B /* Pods-appName */,
 				2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */,
 				3847153A6E5EEFB86565BA840768F429 /* SDWebImage */,
 				A729783D6899104794898A4D5C6298F6 /* SKPhotoBrowser */,
@@ -13452,7 +13452,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				575EE039A952AD166C39BDA1B29FEE19 /* Pods-FanServe-dummy.m in Sources */,
+				575EE039A952AD166C39BDA1B29FEE19 /* Pods-appName-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -15740,7 +15740,7 @@
 		};
 		1C76FC6E4E2A92C9CF0C0D3D289F7591 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A46F64C4A6B23F227C4A0936BDDC29A /* Pods-FanServe.release.xcconfig */;
+			baseConfigurationReference = 4A46F64C4A6B23F227C4A0936BDDC29A /* Pods-appName.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -15752,7 +15752,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FanServe/Pods-FanServe-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-appName/Pods-appName-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -15761,7 +15761,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FanServe/Pods-FanServe.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-appName/Pods-appName.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -16224,7 +16224,7 @@
 		};
 		51F7497A3B1EA088A0B47590B4491372 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4087968DB39E8FCECDD7978488DC2D22 /* Pods-FanServe.debug.xcconfig */;
+			baseConfigurationReference = 4087968DB39E8FCECDD7978488DC2D22 /* Pods-appName.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -16236,7 +16236,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FanServe/Pods-FanServe-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-appName/Pods-appName-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -16245,7 +16245,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FanServe/Pods-FanServe.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-appName/Pods-appName.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -18885,7 +18885,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9D2F70D123D35BB61E1A033DFA047EA /* Build configuration list for PBXNativeTarget "Pods-FanServe" */ = {
+		A9D2F70D123D35BB61E1A033DFA047EA /* Build configuration list for PBXNativeTarget "Pods-appName" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				51F7497A3B1EA088A0B47590B4491372 /* Debug */,

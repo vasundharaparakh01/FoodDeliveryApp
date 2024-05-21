@@ -1,6 +1,6 @@
 //
 //  BiometricHandler.swift
-//  FanServe
+//  appName
 //
 //  Created by macbook on 15/12/22.
 //
@@ -17,7 +17,7 @@ class BiometricHandler {
     
     func authenticate(completion: @escaping (Bool) -> Void) {
         let context = LAContext()
-        let reason = "FanServe uses Biometric to log you in."
+        let reason = "appName uses Biometric to log you in."
         context.evaluatePolicy(
             // .deviceOwnerAuthentication allows
             // biometric or passcode authentication

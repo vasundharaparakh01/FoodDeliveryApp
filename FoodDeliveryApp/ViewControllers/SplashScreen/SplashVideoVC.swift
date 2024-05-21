@@ -1,6 +1,6 @@
 //
 //  SplashVideoVC.swift
-//  FanServe
+//  appName
 //
 //  Created by Varun Kumar Raghav on 17/05/22.
 //
@@ -22,7 +22,7 @@ class SplashVideoVC: UIViewController {
 //    private let floatingTitleLbl: UILabel = {
 //        let titleLbl = UILabel(frame: CGRect(x: 0, y: 0, width: 85, height: 35))
 //        titleLbl.layer.masksToBounds = true
-//        titleLbl.text = "FANSERVE"
+//        titleLbl.text = "appName"
 //        return titleLbl
 //    }()
     
@@ -56,7 +56,7 @@ class SplashVideoVC: UIViewController {
         // Line height: 54 pt
 
         view.textAlignment = .center
-        view.text = "FAN SERVE"
+        view.text = "App Name"
 
         let parent = self.playerController.view!//self.view!
         parent.addSubview(view)
