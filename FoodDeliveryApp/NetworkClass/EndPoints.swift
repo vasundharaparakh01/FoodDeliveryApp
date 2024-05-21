@@ -98,7 +98,4 @@ extension APIEndPoint: APIRequestType {
     }
 }
 
-//        let endPath = endPoint()
-//        if endPath == "/v1/user/change-password" {
-//            auth = HTTPHeader(name: Constants.UserDefaultsKey.authorization, value: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MWQ1ODUyZjZlZjVlMzE2MzNkNDM4MzciLCJpYXQiOjE2NDEzODg3OTEsImV4cCI6MTY0MTM5MDU5MSwidHlwZSI6ImFjY2VzcyJ9.wZYvwHzSVEDsK6d6gm1TzREUrViPRR1F88yVZuyifwM")
-//        }
+
